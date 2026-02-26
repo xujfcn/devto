@@ -1,10 +1,12 @@
 ---
-title: "Deploy Your Own AI Assistant in One Command: Crazyrouter + OpenClaw Self-Hosting Guide"
+title: 'Deploy Your Own AI Assistant in One Command: Crazyrouter + OpenClaw Self-Hosting Guide'
 published: true
-description: "One command to deploy a private AI gateway supporting 300+ models with Telegram Bot integration"
+description: One command to deploy a private AI gateway supporting 300+ models with Telegram Bot integration
 tags: 'ai, chatgpt, selfhosted, tutorial'
-cover_image: https://raw.githubusercontent.com/xujfcn/crazyrouter-openclaw/main/screenshots/install-part2.png
+cover_image: 'https://raw.githubusercontent.com/xujfcn/crazyrouter-openclaw/main/screenshots/install-part2.png'
 canonical_url: null
+id: 3287544
+date: '2026-02-26T10:25:40Z'
 ---
 
 ## Why Self-Host an AI Gateway?

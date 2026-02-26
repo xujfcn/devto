@@ -1,10 +1,12 @@
 ---
-title: "5 AI API Tips Every Developer Should Know in 2026"
+title: 5 AI API Tips Every Developer Should Know in 2026
 published: true
-description: "Quick tips to save money and boost productivity when using AI APIs for development"
+description: Quick tips to save money and boost productivity when using AI APIs for development
 tags: 'ai, webdev, productivity, beginners'
 cover_image: null
 canonical_url: null
+id: 3287543
+date: '2026-02-26T10:25:39Z'
 ---
 
 ## 1. Use an API Gateway Instead of Direct Keys
