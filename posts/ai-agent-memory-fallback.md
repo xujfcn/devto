@@ -1,9 +1,11 @@
 ---
-title: "Why Your AI Agent Keeps Losing Its Memory (And How We Fixed It)"
+title: Why Your AI Agent Keeps Losing Its Memory (And How We Fixed It)
 published: true
-description: "AI agents forget conversations when memory consolidation fails. We built a dual-layer fallback system that chains 5 models to guarantee zero memory loss."
-tags: ai, agents, architecture, opensource
-cover_image: https://assets.lemondata.cc/blog/ai-agent-memory-never-lose/cover.png
+description: AI agents forget conversations when memory consolidation fails. We built a dual-layer fallback system that chains 5 models to guarantee zero memory loss.
+tags: 'ai, agents, architecture, opensource'
+cover_image: 'https://assets.lemondata.cc/blog/ai-agent-memory-never-lose/cover.png'
+id: 3301802
+date: '2026-03-02T09:55:49Z'
 ---
 
 
