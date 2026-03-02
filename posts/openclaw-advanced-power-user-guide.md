@@ -3,7 +3,7 @@ title: "Build Your Own 24/7 AI Assistant with OpenClaw + Crazyrouter: From Deplo
 published: true
 description: "One command to deploy, 300+ AI models, Telegram/Discord/Slack integration, Cursor/Cline/Aider compatible. Stop paying $60/month for 3 AI subscriptions."
 tags: ai, tutorial, productivity, opensource
-cover_image: https://raw.githubusercontent.com/xujfcn/crazyrouter-openclaw/main/screenshots/1.png
+cover_image: https://raw.githubusercontent.com/xujfcn/crazyrouter-openclaw/main/screenshots/install-part1.png
 ---
 
 ChatGPT Plus is $20/month. Claude Pro is another $20. Gemini Advanced? $20 more.
