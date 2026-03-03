@@ -1,9 +1,11 @@
 ---
-title: "Deploy AI Chatbot on Feishu (Lark) with CrazyRouter + OpenClaw — Complete Guide"
+title: Deploy AI Chatbot on Feishu (Lark) with CrazyRouter + OpenClaw — Complete Guide
 published: true
-description: "Step-by-step guide to deploy an AI chatbot on Feishu/Lark with 300+ AI models support. One command setup, 10-minute configuration."
+description: 'Step-by-step guide to deploy an AI chatbot on Feishu/Lark with 300+ AI models support. One command setup, 10-minute configuration.'
 tags: 'ai, chatbot, tutorial, productivity'
 cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/feishu_bot/01_open_platform.jpg'
+id: 3306064
+date: '2026-03-03T14:22:56Z'
 ---
 
 # 手把手教你用 CrazyRouter + OpenClaw 一键部署飞书 AI 机器人
