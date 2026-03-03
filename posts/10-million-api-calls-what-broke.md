@@ -1,9 +1,11 @@
 ---
-title: "We Routed 10 Million API Calls Last Month. Here's What Broke."
+title: We Routed 10 Million API Calls Last Month. Here's What Broke.
 published: true
-description: "Running an AI API gateway handling 10M+ calls/month across 20 providers. Our incident report on what broke and what we built to fix it."
+description: Running an AI API gateway handling 10M+ calls/month across 20 providers. Our incident report on what broke and what we built to fix it.
 tags: 'ai, api, infrastructure, devops'
 cover_image: 'https://crazyrouter.com/logo.png'
+id: 3306034
+date: '2026-03-03T14:19:03Z'
 ---
 
 # We Routed 10 Million API Calls Last Month. Here's What Broke.
