@@ -1,10 +1,12 @@
 ---
-title: "How to Skip Permission Prompts in Claude Code: The --dangerously-skip-permissions Flag Explained"
+title: 'How to Skip Permission Prompts in Claude Code: The --dangerously-skip-permissions Flag Explained'
 published: true
-description: "Tired of clicking 'Allow' every 10 seconds in Claude Code? Here's how to use --dangerously-skip-permissions safely, plus smarter alternatives."
-tags: ai, productivity, cli, tutorial
-canonical_url:
-cover_image:
+description: 'Tired of clicking ''Allow'' every 10 seconds in Claude Code? Here''s how to use --dangerously-skip-permissions safely, plus smarter alternatives.'
+tags: 'ai, productivity, cli, tutorial'
+canonical_url: null
+cover_image: null
+id: 3309214
+date: '2026-03-04T16:31:43Z'
 ---
 
 If you've used Claude Code (Anthropic's CLI for Claude), you know the pain: every file edit, every shell command, every tool call triggers a permission prompt.
