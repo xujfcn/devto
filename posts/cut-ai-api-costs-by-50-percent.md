@@ -1,10 +1,12 @@
 ---
-title: "How to Cut Your AI API Costs by 50% Without Sacrificing Quality"
+title: How to Cut Your AI API Costs by 50% Without Sacrificing Quality
 published: true
-description: "Spending too much on AI APIs? Here are 5 proven strategies to cut costs in half — from model selection to API gateways to caching."
-tags: ai, api, productivity, tutorial
-canonical_url:
-cover_image:
+description: Spending too much on AI APIs? Here are 5 proven strategies to cut costs in half — from model selection to API gateways to caching.
+tags: 'ai, api, productivity, tutorial'
+canonical_url: null
+cover_image: null
+id: 3309209
+date: '2026-03-04T16:29:38Z'
 ---
 
 Here's a number that should make you uncomfortable: **$60/month**.
