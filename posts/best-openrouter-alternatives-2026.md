@@ -1,10 +1,12 @@
 ---
-title: "7 Best OpenRouter Alternatives in 2026: AI API Gateways Compared"
+title: '7 Best OpenRouter Alternatives in 2026: AI API Gateways Compared'
 published: true
-description: "Compare the top OpenRouter alternatives for 2026 including Crazyrouter, Portkey, LiteLLM, Helicone, and more. Real pricing data, code examples, and feature comparison."
-tags: ai, openai, api, llm
-canonical_url: https://crazyrouter.com/blog/best-openrouter-alternatives-2026?utm_source=devto&utm_medium=article&utm_campaign=openrouter_alt
-cover_image: https://raw.githubusercontent.com/xujfcn/images/main/logo/crazyrouter_logo.jpg
+description: 'Compare the top OpenRouter alternatives for 2026 including Crazyrouter, Portkey, LiteLLM, Helicone, and more. Real pricing data, code examples, and feature comparison.'
+tags: 'ai, openai, api, llm'
+canonical_url: 'https://crazyrouter.com/blog/best-openrouter-alternatives-2026?utm_source=devto&utm_medium=article&utm_campaign=openrouter_alt'
+cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/logo/crazyrouter_logo.jpg'
+id: 3312666
+date: '2026-03-05T16:19:29Z'
 ---
 
 # 7 Best OpenRouter Alternatives in 2026: AI API Gateways Compared
