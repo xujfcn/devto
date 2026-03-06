@@ -1,254 +1,308 @@
 ---
-title: Top 10 AI API Proxies & Reverse Proxies for Developers in 2026
+title: "Top 10 AI API Proxies & Reverse Proxies for Developers in 2026"
 published: true
-description: 'A comprehensive guide to the best AI API proxies — commercial, open-source, and self-hosted. Compare features, pricing, and find the right proxy for your stack.'
-tags: 'ai, api, opensource, devops'
-canonical_url: null
-cover_image: null
-id: 3312665
-date: '2026-03-05T16:19:28Z'
+description: "A hands-on comparison of 10 AI API proxies — commercial, open-source, and self-hosted — with real pricing, code examples, and feature matrix."
+tags: AI, API, LLM, OpenAI, proxy
+canonical_url: https://crazyrouter.com/blog/top-10-ai-api-proxies-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy
+cover_image:
 ---
 
-Managing multiple AI API keys is the new "dependency hell." You've got OpenAI, Anthropic, Google, Mistral, DeepSeek — each with their own SDK, billing, rate limits, and quirks.
+<!-- UTM for Dev.to -->
+# Top 10 AI API Proxies & Reverse Proxies for Developers in 2026
 
-AI API proxies sit between your app and these providers, giving you a single endpoint, unified billing, and often better pricing. Some also add caching, logging, fallback routing, and access control.
+> A hands-on comparison of 10 AI API proxies — commercial gateways, open-source solutions, and self-hosted options — with real pricing data, working code examples, and a feature matrix.
 
-Here are the 10 best options in 2026, split into three categories: **commercial**, **open-source**, and **self-hosted**.
+## What Is an AI API Proxy?
 
----
+An AI API proxy sits between your application and AI providers (OpenAI, Anthropic, Google, etc.), handling authentication, routing, rate limiting, caching, and failover. Instead of managing separate API keys and SDKs for each provider, you hit one endpoint.
 
-## Commercial AI API Proxies
+Think of it as NGINX for AI models — but purpose-built for the unique challenges of LLM traffic: streaming responses, token-based billing, model-specific quirks, and multi-provider failover.
 
-### 1. OpenRouter
+**Why you need one:**
 
-**URL:** openrouter.ai
-**Models:** 300+ | **Markup:** 10-30% | **Free tier:** Yes
-
-The most popular AI API gateway. Aggregates models from every major provider into a single OpenAI-compatible endpoint. Great model variety, active community, solid documentation.
-
-**Strengths:** Largest catalog, OAuth for user-facing apps, free models available
-**Weaknesses:** Markup adds up at scale, no self-hosting, rate limits on free tier
+- **One API key, many models** — Stop juggling 5 different provider accounts
+- **Cost optimization** — Route to cheaper models for simple tasks, cache repeated queries
+- **Reliability** — Automatic failover when a provider goes down (it happens more than you think)
+- **Observability** — Track costs, latency, and token usage across all providers
+- **Security** — Centralize API key management instead of scattering keys across services
 
 ---
 
-### 2. Crazyrouter
+## Quick Comparison
 
-**URL:** crazyrouter.com
-**Models:** 300+ | **Markup:** Negative (~55% of official prices) | **Free tier:** Yes
-
-A cost-focused gateway that matches OpenRouter's model count but at significantly lower prices. Full OpenAI SDK compatibility. Works particularly well with self-hosted AI assistants like OpenClaw, LobeChat, and NextChat.
-
-**Strengths:** Cheapest option tested, 300+ models, regional nodes for low latency, great for self-hosted setups
-**Weaknesses:** Smaller community, newer platform
-
----
-
-### 3. Portkey
-
-**URL:** portkey.ai
-**Models:** 200+ | **Markup:** Varies | **Free tier:** 10K requests/month
-
-Enterprise-focused AI gateway with built-in observability, guardrails, and governance. SOC 2 compliant. More than just a proxy — it's a full production stack.
-
-**Strengths:** Enterprise features, automatic fallback, LLM caching, compliance
-**Weaknesses:** Complex for simple use cases, limited free tier
+| Proxy | Type | Models | Pricing | Self-Host | Best For |
+|-------|------|--------|---------|-----------|----------|
+| **Crazyrouter** | Commercial | 627+ | ~55% of official | ❌ | Cheapest multi-modal access |
+| **LiteLLM** | Open Source | 100+ providers | Free | ✅ | Self-hosted LLM proxy |
+| **OpenRouter** | Commercial | 300+ | Official + 10-30% | ❌ | Quick prototyping |
+| **Portkey** | Commercial | 1,600+ (BYOK) | Free–$49/mo | ✅ | Enterprise governance |
+| **One API** | Open Source | 40+ providers | Free | ✅ | Chinese dev community |
+| **Helicone** | Commercial | BYOK | Free–$20/mo | ✅ | Observability layer |
+| **NGINX AI Proxy** | Open Source | Config-based | Free | ✅ | Existing NGINX users |
+| **Cloudflare AI GW** | Commercial | BYOK | Free | ❌ | Edge caching |
+| **Kong AI Gateway** | Commercial | Plugin-based | Enterprise | ✅ | Existing Kong users |
+| **Unify AI** | Commercial | 80+ | Pay-per-token | ❌ | Benchmark-driven routing |
 
 ---
 
-### 4. Martian
+## Commercial Proxies
 
-**URL:** withmartian.com
-**Models:** 50+ | **Markup:** ~10% + routing fee | **Free tier:** Yes
+### 1. Crazyrouter — Cheapest Multi-Modal API Proxy
 
-Intelligent model router that automatically selects the cheapest model capable of handling your request. Saves money by avoiding overkill models for simple tasks.
+**Website**: [crazyrouter.com](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy)
 
-**Strengths:** Smart routing, cost optimization, simple integration
-**Weaknesses:** Smaller model catalog, routing logic is a black box
+Crazyrouter is the most aggressive on pricing: roughly 55% of official API prices across 627+ models. But what makes it unique among proxies is **multi-modal coverage** — it's the only gateway that handles LLM, image generation, video generation, and music generation through a single endpoint.
 
----
+**Models covered:**
+- **LLMs**: [GPT-5/5.2](https://crazyrouter.com/blog/gpt-5-2-vs-claude-opus-4-6-vs-gemini-3-pro-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy), [Claude Opus 4.6/Sonnet 4.6](https://crazyrouter.com/blog/claude-opus-4-6-vs-gpt-5-2-vs-gemini-3-pro-march-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy), Gemini 3 Pro, [DeepSeek V3.2/R1](https://crazyrouter.com/blog/deepseek-r2-vs-claude-opus-4-6-reasoning-comparison?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy), Grok 4, Qwen 3
+- **Image**: DALL-E 3, Midjourney, Flux Pro, Stable Diffusion 3.5
+- **Video**: Sora 2, Kling V2.6, Veo 3, Runway Gen4
+- **Music**: Suno V4
 
-### 5. Unify AI
+**Pricing comparison:**
 
-**URL:** unify.ai
-**Models:** 80+ | **Markup:** ~0% | **Free tier:** Yes
+| Model | Official | Crazyrouter | Savings |
+|-------|----------|-------------|---------|
+| GPT-5.2 | $3.00 / $12.00 per 1M tokens | ~$1.65 / $6.60 | 45% |
+| Claude Opus 4.6 | $15.00 / $75.00 | ~$8.25 / $41.25 | 45% |
+| Claude Sonnet 4.6 | $3.00 / $15.00 | ~$1.65 / $8.25 | 45% |
+| Gemini 3 Pro | $1.25 / $10.00 | ~$0.69 / $5.50 | 45% |
 
-Benchmark-driven gateway that routes requests based on quality/speed/cost scores for each model on specific task types.
-
-**Strengths:** Data-driven model selection, transparent benchmarks, clean API
-**Weaknesses:** Limited provider coverage, benchmarks may not match your use case
-
----
-
-## Open-Source AI API Proxies
-
-### 6. LiteLLM
-
-**URL:** github.com/BerriAI/litellm
-**Models:** 100+ providers | **Cost:** Free | **Language:** Python
-
-The most popular open-source LLM proxy. Translates between different provider APIs and exposes a unified OpenAI-compatible endpoint. Includes cost tracking, budgeting, and a management UI.
-
-**Strengths:** Free, 100+ providers, active community, good docs
-**Weaknesses:** Python-only, requires self-hosting, no built-in smart routing
-
-```bash
-# Quick start
-pip install litellm
-litellm --model gpt-4o --api_key sk-xxx
-```
-
----
-
-### 7. One API
-
-**URL:** github.com/songquanpeng/one-api
-**Models:** 30+ providers | **Cost:** Free | **Language:** Go
-
-Popular in the Chinese developer community. Provides a web dashboard for managing multiple API keys, with load balancing and quota management. Lightweight and easy to deploy.
-
-**Strengths:** Clean web UI, multi-user support, channel management, Docker deploy
-**Weaknesses:** Documentation primarily in Chinese, fewer Western providers
-
-```bash
-docker run -d -p 3000:3000 \
-  -v /data/one-api:/data \
-  justsong/one-api
-```
-
----
-
-### 8. New API
-
-**URL:** github.com/Calcium-Ion/new-api
-**Models:** 40+ providers | **Cost:** Free | **Language:** Go
-
-A fork of One API with additional features: Midjourney support, billing system, model pricing configuration, and more provider integrations.
-
-**Strengths:** More providers than One API, Midjourney/DALL-E support, billing system
-**Weaknesses:** Fork maintenance risk, Chinese-first documentation
-
----
-
-### 9. Helicone (Open Core)
-
-**URL:** helicone.ai / github.com/Helicone/helicone
-**Models:** BYOK | **Cost:** Free tier (100K requests) | **Language:** TypeScript
-
-Primarily an observability platform, but functions as a proxy. One-line integration — just change your base URL. Excellent logging, analytics, and caching.
-
-**Strengths:** Best-in-class analytics, one-line setup, caching, open source core
-**Weaknesses:** Not a model aggregator (BYOK), observability-first
+**Drop-in replacement** — change two lines:
 
 ```python
-# One-line integration
+from openai import OpenAI
+
 client = OpenAI(
-    api_key="sk-your-key",
-    base_url="https://oai.helicone.ai/v1",
-    default_headers={"Helicone-Auth": "Bearer your-helicone-key"}
+    base_url="https://crazyrouter.com/v1",
+    api_key="your-crazyrouter-key"
 )
+
+response = client.chat.completions.create(
+    model="gpt-5-mini",
+    messages=[{"role": "user", "content": "What is an AI API proxy? One sentence."}]
+)
+print(response.choices[0].message.content)
 ```
+
+**Tested response** (March 2026):
+
+```json
+{
+  "model": "gpt-5-mini",
+  "choices": [{
+    "message": {
+      "content": "An AI API proxy is an intermediary service that routes and transforms requests and responses between applications and AI providers while handling authentication, security, rate limiting, caching, logging, and policy enforcement."
+    },
+    "finish_reason": "stop"
+  }],
+  "usage": {"prompt_tokens": 17, "completion_tokens": 37, "total_tokens": 54}
+}
+```
+
+Also natively supports Anthropic SDK format and Google Gemini format — no forced conversion to OpenAI format.
+
+✅ Cheapest pricing (~55% of official), 627+ models including image/video/music, OpenAI + Anthropic + Gemini compatible, 7 global regions
+❌ No self-hosting, smaller community than OpenRouter
 
 ---
 
-## Self-Hosted Combo
+### 2. OpenRouter — The Popular Default
 
-### 10. OpenClaw + API Gateway
+**Website**: [openrouter.ai](https://openrouter.ai)
 
-**URL:** github.com/openclaw/openclaw
-**Models:** Depends on gateway | **Cost:** Free | **Language:** Node.js
+OpenRouter is the most widely known AI API proxy. 300+ models, a free tier for some models, and a large community. It's the "safe default" choice.
 
-OpenClaw is an open-source AI assistant framework (146K+ GitHub stars) that turns any API gateway into a full-featured AI assistant. Connect it to Crazyrouter, OpenRouter, or any OpenAI-compatible endpoint, then access your AI through Telegram, Discord, Slack, Feishu, or DingTalk.
+**The catch**: 10-30% markup on top of official prices. For prototyping this doesn't matter. At scale, it adds up fast — a $10,000/month API bill becomes $11,000-$13,000.
 
-**Strengths:** Full AI assistant (not just a proxy), 10+ chat platform integrations, memory system, skill plugins, one-click deploy script
-**Weaknesses:** More than just a proxy — requires setup, Node.js dependency
+✅ Largest community, free tier for some models, easy to start
+❌ 10-30% markup, LLM only (no image/video), no self-hosting
+
+---
+
+### 3. Portkey — Enterprise Control Plane
+
+**Website**: [portkey.ai](https://portkey.ai)
+
+Portkey positions itself as the "control plane for AI apps." If your team needs SOC 2 compliance, RBAC, audit logs, and guardrails (PII detection, content filtering), Portkey is the enterprise answer.
+
+**Key features:**
+- 1,600+ LLMs (BYOK — Bring Your Own Key)
+- Guardrails: PII detection, input/output validation
+- Distributed tracing, cost dashboards, latency monitoring
+- Prompt management with A/B testing
+- Automatic failover between providers
+
+**Pricing**: Free (10K requests/month) → Pro $49/month → Enterprise custom
+
+✅ Most comprehensive governance, SOC 2, open-source core
+❌ BYOK (no token cost savings), complex setup, overkill for simple projects
+
+---
+
+### 4. Helicone — Observability-First Proxy
+
+**Website**: [helicone.ai](https://helicone.ai)
+
+Helicone isn't a model aggregator — it's Datadog for AI API calls. One-line integration (change your base URL), and you get full request/response logging, cost tracking, semantic caching, and latency monitoring.
+
+**Pricing**: Free (100K requests/month) → Pro $20/month
+
+✅ Best AI observability, 100K free requests/month, one-line setup
+❌ Not a model aggregator (BYOK), adds a proxy hop
+
+---
+
+### 5. Cloudflare AI Gateway — Edge Caching
+
+**Website**: [developers.cloudflare.com/ai-gateway](https://developers.cloudflare.com/ai-gateway/)
+
+Free proxy layer running on Cloudflare's edge network. Provides caching, rate limiting, and basic analytics. If you're already using Cloudflare, this is a no-brainer addition.
+
+✅ Free, global edge network, edge caching reduces repeated query costs
+❌ BYOK (no cost savings), basic analytics, no smart routing
+
+---
+
+### 6. Unify AI — Benchmark-Driven Routing
+
+**Website**: [unify.ai](https://unify.ai)
+
+Unify's unique angle: instead of you picking the model, it automatically routes to the optimal model based on benchmarks, cost, and latency.
+
+✅ Intelligent routing, data-driven decisions
+❌ Only 80+ models, benchmark scores may not match your use case
+
+---
+
+### 7. Kong AI Gateway — For Kong Shops
+
+**Website**: [konghq.com](https://konghq.com)
+
+AI plugins for the popular Kong API Gateway. Natural extension if your org already uses Kong for API management.
+
+✅ Reuses existing Kong infrastructure, enterprise-grade
+❌ Pointless without Kong, complex AI-specific configuration
+
+---
+
+## Open-Source / Self-Hosted Proxies
+
+### 8. LiteLLM — The Go-To Open Source Proxy
+
+**GitHub**: [github.com/BerriAI/litellm](https://github.com/BerriAI/litellm) (18K+ stars)
+
+LiteLLM is the most popular open-source AI API proxy. Python-based, supports 100+ providers, OpenAI-compatible endpoint. If you want full control over your AI infrastructure with data staying on your servers, LiteLLM is the standard choice.
 
 ```bash
-# One-command deploy (Linux/macOS)
-curl -fsSL https://raw.githubusercontent.com/xujfcn/crazyrouter-openclaw/main/install.sh | bash
+pip install litellm
+litellm --config config.yaml
 ```
+
+```yaml
+model_list:
+  - model_name: gpt-5
+    litellm_params:
+      model: openai/gpt-5
+      api_key: sk-xxx
+  - model_name: claude-opus
+    litellm_params:
+      model: anthropic/claude-opus-4-6
+      api_key: sk-ant-xxx
+```
+
+Features: virtual keys, budget management, rate limiting, load balancing, spend tracking.
+
+✅ MIT license, data never leaves your infra, active community, cost tracking
+❌ You manage the infrastructure, BYOK (no token discounts), LLM only
 
 ---
 
-## Comparison Matrix
+### 9. One API — Popular in Chinese Dev Community
 
-| Proxy | Type | Models | Pricing | OpenAI Compatible | Self-Host | Smart Routing | Best For |
-|-------|------|--------|---------|-------------------|-----------|---------------|----------|
-| OpenRouter | Commercial | 300+ | 1.1-1.3x | ✅ | ❌ | Basic | Model variety |
-| Crazyrouter | Commercial | 300+ | **0.55x** | ✅ | ❌ | ❌ | Cost savings |
-| Portkey | Commercial | 200+ | Varies | ✅ | ❌ | ✅ | Enterprise |
-| Martian | Commercial | 50+ | ~1.1x | ✅ | ❌ | ✅ | Auto-optimization |
-| Unify AI | Commercial | 80+ | ~1.0x | ✅ | ❌ | ✅ | Benchmarks |
-| LiteLLM | Open Source | 100+ | Free | ✅ | ✅ | ❌ | Full control |
-| One API | Open Source | 30+ | Free | ✅ | ✅ | ❌ | Multi-user mgmt |
-| New API | Open Source | 40+ | Free | ✅ | ✅ | ❌ | MJ + billing |
-| Helicone | Open Core | BYOK | Free tier | ✅ | ✅ | ❌ | Observability |
-| OpenClaw | Open Source | Any | Free | ✅ | ✅ | ❌ | AI assistant |
+**GitHub**: [github.com/songquanpeng/one-api](https://github.com/songquanpeng/one-api) (20K+ stars)
+
+One API is the most widely used open-source AI proxy in Chinese-speaking developer communities. It provides a web-based admin panel for managing multiple API keys, channels, and token quotas. Think of it as LiteLLM + admin dashboard, with a focus on key management and reselling scenarios.
+
+**Key features:**
+- Web admin panel (manage keys, channels, quotas)
+- Multi-tenant support (create sub-accounts with token limits)
+- Channel balancing (distribute requests across multiple keys)
+- 40+ providers supported
+- Docker one-click deployment
+
+✅ Best admin UI among open-source options, multi-tenant, 20K+ GitHub stars
+❌ Less active English community, some providers lag behind LiteLLM
+
+---
+
+### 10. NGINX AI Proxy — For NGINX Veterans
+
+**Blog**: [blog.nginx.org/blog/using-nginx-as-an-ai-proxy](https://blog.nginx.org/blog/using-nginx-as-an-ai-proxy)
+
+NGINX now supports AI-specific proxy configurations — streaming SSE responses, request/response transformation for different providers, and load balancing across AI backends. If your team already runs NGINX, adding AI proxy capabilities is a natural extension.
+
+✅ Leverages existing NGINX expertise, no new dependencies, battle-tested infrastructure
+❌ Manual configuration, no built-in model routing or cost tracking, steep learning curve for AI-specific features
+
+---
+
+## Feature Matrix
+
+| Feature | Crazyrouter | LiteLLM | OpenRouter | Portkey | One API | Helicone | CF GW |
+|---------|------------|---------|------------|---------|---------|----------|-------|
+| Models | 627+ | 100+ | 300+ | 1,600+(BYOK) | 40+ | BYOK | BYOK |
+| Price discount | ~45% | None | -10-30% | None | None | None | None |
+| Image/Video/Music | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Self-host | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ |
+| Admin UI | Dashboard | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Guardrails | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| Smart routing | ❌ | Basic | ❌ | ✅ | ❌ | ❌ | ❌ |
+| Caching | ❌ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
+| OpenAI compatible | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ---
 
 ## How to Choose
 
-**Start here:**
+**Decision tree:**
 
-1. **Just want cheap access to all models?** → Crazyrouter or OpenRouter
-2. **Need enterprise compliance?** → Portkey
-3. **Want full control, no fees?** → LiteLLM or One API
-4. **Want analytics on your AI usage?** → Helicone
-5. **Want a complete AI assistant, not just an API?** → OpenClaw + any gateway
-6. **Want automatic cost optimization?** → Martian or Unify AI
+1. **"I need the cheapest token prices"** → [Crazyrouter](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy) (~45% off official prices, widest model coverage)
 
-**The good news:** All of these are OpenAI-compatible. Switching between them is literally a two-line code change (base URL + API key). There's no lock-in.
+2. **"I need data to stay on my servers"** → **LiteLLM** (open source, MIT, most providers) or **One API** (if you want an admin panel)
 
----
+3. **"I need enterprise governance"** → **Portkey** (SOC 2, guardrails, RBAC, audit logs)
 
-## Switching Is Easy
+4. **"I need to understand my AI spending"** → **Helicone** (best observability, 100K free requests)
 
-```python
-from openai import OpenAI
+5. **"I also need image/video/music generation"** → [Crazyrouter](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy) (only gateway covering full multi-modal spectrum)
 
-# Switch gateway by changing these two lines
-client = OpenAI(
-    api_key="your-key",
-    base_url="https://gateway.example.com/v1"
-)
-
-# Your code stays exactly the same
-response = client.chat.completions.create(
-    model="claude-sonnet-4-20250514",
-    messages=[{"role": "user", "content": "Explain quantum computing"}]
-)
-print(response.choices[0].message.content)
-```
-
----
-
-*Using a proxy I didn't cover? Drop it in the comments — I'm always looking for new options to test.*
-
----
-
-## Further Reading
-
-- [AI API Cost Optimization: Complete Guide](https://crazyrouter.com/blog/ai-api-cost-optimization-complete-guide-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxies) — Reduce your AI spending
-- [AI API Load Balancing & Fallback Strategies](https://crazyrouter.com/blog/ai-api-load-balancing-fallback-strategies-guide-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxies) — Build resilient AI apps
-- [AI API Latency Optimization: 10 Strategies](https://crazyrouter.com/blog/ai-api-latency-optimization-guide-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxies) — Make your AI apps faster
-- [Gemini 2.5 Pro API Complete Guide](https://crazyrouter.com/blog/gemini-2-5-pro-api-complete-guide-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxies) — Google's most powerful model
-- [LangChain vs LlamaIndex Comparison](https://crazyrouter.com/blog/langchain-vs-llamaindex-comparison-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxies) — Which AI framework to choose
+6. **"I'm already using Cloudflare/Kong/NGINX"** → Add their AI gateway plugins to your existing stack
 
 ---
 
 ## FAQ
 
-**Q: What is an AI API proxy?**
-A: An AI API proxy sits between your application and AI model providers (OpenAI, Anthropic, Google, etc.), providing a unified endpoint, simplified billing, and often additional features like caching, logging, and load balancing.
+### What's the difference between an AI API proxy and an AI API gateway?
 
-**Q: Do AI API proxies work with the OpenAI SDK?**
-A: Yes. All major AI API proxies listed here are OpenAI-compatible. You just change the `base_url` and `api_key` — no other code changes needed.
+In practice, they're used interchangeably. Technically, a "proxy" forwards requests to AI providers, while a "gateway" adds management features (auth, rate limiting, analytics, routing). Every tool in this list does both — the distinction is marketing, not technical.
 
-**Q: Is it safe to route API calls through a third-party proxy?**
-A: Commercial proxies like OpenRouter and Crazyrouter process requests in transit but don't store conversation data. For maximum security, self-host an open-source option like LiteLLM or One API.
+### Can I use multiple AI proxies together?
 
-**Q: Can I use an AI API proxy to access models not available in my region?**
-A: Yes, many proxies provide access to models regardless of your geographic location. This is one of the key benefits for developers in regions with restricted API access.
+Yes. A common pattern: use Crazyrouter for model access (cheapest tokens) + Helicone for observability (track what's happening). Or self-host LiteLLM as your proxy layer, routing to Crazyrouter for cost savings. See our [cost optimization guide](https://crazyrouter.com/blog/ai-api-cost-optimization-complete-guide-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy) for architecture patterns.
 
-**Q: What's the difference between an AI API proxy and an AI API gateway?**
-A: The terms are often used interchangeably. "Gateway" typically implies more features (routing, load balancing, analytics), while "proxy" is a simpler pass-through. In practice, most products listed here offer both capabilities.
+### Do AI proxies add latency?
+
+Minimal — typically 5-20ms for commercial proxies (Crazyrouter, OpenRouter). Self-hosted proxies (LiteLLM, One API) add almost no latency if deployed in the same region as your app. Cloudflare AI Gateway can actually _reduce_ latency through edge caching. For a deep dive, see our [latency optimization guide](https://crazyrouter.com/blog/ai-api-latency-optimization-guide-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy).
+
+### Which proxy is best for production use?
+
+Depends on your constraints. For cost: Crazyrouter. For control: LiteLLM. For enterprise: Portkey. For observability: Helicone. Many production systems use 2-3 of these together. Check our [load balancing guide](https://crazyrouter.com/blog/ai-api-load-balancing-fallback-strategies-guide-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy) for production architecture patterns.
+
+### Is it safe to route API keys through a third-party proxy?
+
+Commercial proxies (Crazyrouter, OpenRouter, Portkey) manage keys on your behalf — you don't send your provider keys through them. For BYOK proxies (Helicone, Cloudflare), your keys pass through their infrastructure — check their [security practices](https://crazyrouter.com/blog/ai-api-security-best-practices?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy). For maximum security, self-host with LiteLLM or One API.
+
+---
+
+*Last updated: March 2026. Prices and model counts change frequently — check each platform's website for the latest.*
