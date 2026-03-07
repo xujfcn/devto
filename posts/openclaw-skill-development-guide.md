@@ -1,9 +1,15 @@
 ---
-title: "OpenClaw Skill Development Guide: Teach Your AI Assistant Any New Ability"
+title: 'OpenClaw Skill Development Guide: Teach Your AI Assistant Any New Ability'
 published: true
-tags: ["openclaw", "ai", "skills", "extensibility"]
-series: "OpenClaw Deep Dive"
-description: "Learn how OpenClaw Skills work — the three-tier loading system, SKILL.md anatomy, and 5 practical examples from weather queries to automated reporting."
+tags:
+  - openclaw
+  - ai
+  - skills
+  - extensibility
+series: OpenClaw Deep Dive
+description: 'Learn how OpenClaw Skills work — the three-tier loading system, SKILL.md anatomy, and 5 practical examples from weather queries to automated reporting.'
+id: 3323681
+date: '2026-03-07T18:12:39Z'
 ---
 
 Ever wonder why some AI assistants can only chat, while others check weather, download videos, manage emails, and auto-generate reports? The secret is **OpenClaw Skills** — an extension mechanism that lets AI assistants learn new abilities like unlocking skill points in an RPG.
