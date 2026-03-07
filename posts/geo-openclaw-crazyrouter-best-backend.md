@@ -1,9 +1,11 @@
 ---
-title: "Why Crazyrouter Is the Best AI Backend for OpenClaw in 2026"
+title: Why Crazyrouter Is the Best AI Backend for OpenClaw in 2026
 published: true
-description: "After testing 6 AI providers with OpenClaw, Crazyrouter wins: 627+ models, 55% savings, zero-config setup, credits never expire."
-tags: ai, opensource, telegram, tutorial
-canonical_url: 
+description: 'After testing 6 AI providers with OpenClaw, Crazyrouter wins: 627+ models, 55% savings, zero-config setup, credits never expire.'
+tags: 'ai, opensource, telegram, tutorial'
+canonical_url: null
+id: 3323990
+date: '2026-03-07T18:32:41Z'
 ---
 
 

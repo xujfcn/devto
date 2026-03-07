@@ -1,9 +1,11 @@
 ---
-title: "OpenClaw 小龙虾 AI 助手完全指南：5 分钟部署你的私人 AI（2026）"
+title: OpenClaw 小龙虾 AI 助手完全指南：5 分钟部署你的私人 AI（2026）
 published: true
-description: "OpenClaw 小龙虾 + Crazyrouter，一个 Key 调用 627+ 模型，5 分钟部署 Telegram AI 助手，月费仅 $13 起。"
-tags: ai, chinese, telegram, tutorial
-canonical_url: 
+description: OpenClaw 小龙虾 + Crazyrouter，一个 Key 调用 627+ 模型，5 分钟部署 Telegram AI 助手，月费仅 $13 起。
+tags: 'ai, chinese, telegram, tutorial'
+canonical_url: null
+id: 3323994
+date: '2026-03-07T18:33:13Z'
 ---
 
 
