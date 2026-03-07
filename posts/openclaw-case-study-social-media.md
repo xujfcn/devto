@@ -1,9 +1,15 @@
 ---
-title: "Case Study: How I Manage 10 Social Media Accounts with One AI Assistant"
+title: 'Case Study: How I Manage 10 Social Media Accounts with One AI Assistant'
 published: true
-tags: ["openclaw", "ai", "socialmedia", "automation"]
-series: "OpenClaw Deep Dive"
-description: "A real-world case study of building a multi-agent social media automation system with OpenClaw — from manual chaos to 7,000%+ Twitter growth in 3 months."
+tags:
+  - openclaw
+  - ai
+  - socialmedia
+  - automation
+series: OpenClaw Deep Dive
+description: 'A real-world case study of building a multi-agent social media automation system with OpenClaw — from manual chaos to 7,000%+ Twitter growth in 3 months.'
+id: 3319828
+date: '2026-03-07T02:34:05Z'
 ---
 
 As an indie developer, my daily grind isn't just coding — it's also managing content across Twitter, LinkedIn, Telegram, Discord, Dev.to, Hashnode, Mastodon, Bluesky, WeChat, and Viblo. That's 10 platforms. Three months ago, I was ready to quit social media entirely. Then I built a multi-agent automation system with OpenClaw, and everything changed.

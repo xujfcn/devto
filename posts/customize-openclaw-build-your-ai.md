@@ -1,9 +1,15 @@
 ---
-title: "Customize OpenClaw: Build Your Own AI Assistant Platform from Source to Deployment"
+title: 'Customize OpenClaw: Build Your Own AI Assistant Platform from Source to Deployment'
 published: true
-tags: ["openclaw", "ai", "customization", "docker"]
-series: "OpenClaw Deep Dive"
-description: "From config files and personality customization to custom tools, plugins, and Docker deployment — a complete guide to making OpenClaw truly yours."
+tags:
+  - openclaw
+  - ai
+  - customization
+  - docker
+series: OpenClaw Deep Dive
+description: 'From config files and personality customization to custom tools, plugins, and Docker deployment — a complete guide to making OpenClaw truly yours.'
+id: 3319776
+date: '2026-03-07T02:33:35Z'
 ---
 
 OpenClaw is an open-source AI assistant runtime framework supporting multi-model, multi-channel, multi-plugin architectures. But its real power isn't the default configuration — it's the extreme customizability. This article walks you through the entire customization process: config files, personality design, capability extension, and deployment.
