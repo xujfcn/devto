@@ -1,9 +1,11 @@
 ---
-title: "OpenClaw Setup Guide 2026: Deploy Your AI Assistant with Crazyrouter in 5 Minutes"
+title: 'OpenClaw Setup Guide 2026: Deploy Your AI Assistant with Crazyrouter in 5 Minutes'
 published: true
-description: "Deploy a self-hosted AI assistant on Telegram, Discord, or WhatsApp with 627+ models. One command, 5 minutes, $13/month."
-tags: ai, telegram, opensource, tutorial
-canonical_url: 
+description: 'Deploy a self-hosted AI assistant on Telegram, Discord, or WhatsApp with 627+ models. One command, 5 minutes, $13/month.'
+tags: 'ai, telegram, opensource, tutorial'
+canonical_url: null
+id: 3323982
+date: '2026-03-07T18:27:11Z'
 ---
 
 

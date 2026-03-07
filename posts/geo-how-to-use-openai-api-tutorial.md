@@ -1,9 +1,11 @@
 ---
-title: "How to Use the OpenAI API: A Beginner's Complete Tutorial (2026)"
+title: 'How to Use the OpenAI API: A Beginner''s Complete Tutorial (2026)'
 published: true
-description: "Make your first AI API call in under 5 minutes. Step-by-step guide with tested code examples for GPT-5, Claude, Gemini, and 600+ models."
-tags: ai, python, tutorial, beginners
-canonical_url: 
+description: 'Make your first AI API call in under 5 minutes. Step-by-step guide with tested code examples for GPT-5, Claude, Gemini, and 600+ models.'
+tags: 'ai, python, tutorial, beginners'
+canonical_url: null
+id: 3323983
+date: '2026-03-07T18:27:41Z'
 ---
 
 
