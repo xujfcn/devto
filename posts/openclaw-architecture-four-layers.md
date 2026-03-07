@@ -1,9 +1,15 @@
 ---
-title: "OpenClaw Architecture: The Four-Layer Design Philosophy Behind an AI Assistant Runtime"
+title: 'OpenClaw Architecture: The Four-Layer Design Philosophy Behind an AI Assistant Runtime'
 published: true
-tags: ["openclaw", "ai", "architecture", "systemdesign"]
-series: "OpenClaw Deep Dive"
-description: "Deep dive into OpenClaw's four-layer architecture — Control Plane, Gateway, Agent Runtime, and Nodes — and why a single-process design powers a surprisingly capable AI assistant."
+tags:
+  - openclaw
+  - ai
+  - architecture
+  - systemdesign
+series: OpenClaw Deep Dive
+description: 'Deep dive into OpenClaw''s four-layer architecture — Control Plane, Gateway, Agent Runtime, and Nodes — and why a single-process design powers a surprisingly capable AI assistant.'
+id: 3319852
+date: '2026-03-07T02:47:39Z'
 ---
 
 When people think about AI assistants, they picture a chat window backed by an LLM. But what actually makes an AI assistant *alive* is the runtime architecture behind it. OpenClaw uses a unique four-layer design that separates the control plane, gateway, agent runtime, and endpoint nodes into a system that's both lightweight and surprisingly powerful.

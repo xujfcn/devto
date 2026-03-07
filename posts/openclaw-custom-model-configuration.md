@@ -1,9 +1,15 @@
 ---
-title: "OpenClaw Custom Model Configuration: Connect Any AI Model You Want"
+title: 'OpenClaw Custom Model Configuration: Connect Any AI Model You Want'
 published: true
-tags: ["openclaw", "ai", "llm", "devops"]
-series: "OpenClaw Deep Dive"
-description: "Complete guide to OpenClaw's Provider system — configure OpenAI, Claude, Gemini, DeepSeek, Ollama local models, and API gateways with key rotation and failover."
+tags:
+  - openclaw
+  - ai
+  - llm
+  - devops
+series: OpenClaw Deep Dive
+description: 'Complete guide to OpenClaw''s Provider system — configure OpenAI, Claude, Gemini, DeepSeek, Ollama local models, and API gateways with key rotation and failover.'
+id: 3319854
+date: '2026-03-07T02:48:09Z'
 ---
 
 One of OpenClaw's biggest advantages as an open-source AI coding assistant: it doesn't lock you into any single model vendor. Through its flexible Provider system, you can freely connect to OpenAI, Anthropic, Google, DeepSeek, and other cloud models, run local models via Ollama or llama.cpp, or use an API gateway to access 627+ models with one key.

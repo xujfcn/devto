@@ -1,9 +1,15 @@
 ---
-title: "OpenClaw Advanced: 10 Hidden Capabilities That Turn Your AI into a Production Powerhouse"
+title: 'OpenClaw Advanced: 10 Hidden Capabilities That Turn Your AI into a Production Powerhouse'
 published: true
-tags: ["openclaw", "ai", "automation", "browser"]
-series: "OpenClaw Deep Dive"
-description: "Multi-Agent orchestration, Canvas dynamic UI, Cron automation, browser control, and sandbox security — 5 advanced OpenClaw features with real configs and code."
+tags:
+  - openclaw
+  - ai
+  - automation
+  - browser
+series: OpenClaw Deep Dive
+description: 'Multi-Agent orchestration, Canvas dynamic UI, Cron automation, browser control, and sandbox security — 5 advanced OpenClaw features with real configs and code.'
+id: 3319851
+date: '2026-03-07T02:47:38Z'
 ---
 
 Most people use OpenClaw for basic chat — send a message, get a reply, done. But OpenClaw's real power is below the surface: multi-Agent collaboration, dynamic UI generation, automated workflows, browser control, sandbox isolation. These advanced capabilities are what turn AI from a toy into a production tool.
