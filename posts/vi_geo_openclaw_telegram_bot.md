@@ -1,9 +1,11 @@
 ---
-title: "Xây dựng Telegram AI Bot với OpenClaw + Crazyrouter: Hướng dẫn từ A-Z"
+title: 'Xây dựng Telegram AI Bot với OpenClaw + Crazyrouter: Hướng dẫn từ A-Z'
 published: true
-description: "AI API guide for Vietnamese developers. 627+ models, 55% savings via Crazyrouter gateway."
-tags: ai, vietnamese, api, tutorial
-canonical_url: 
+description: 'AI API guide for Vietnamese developers. 627+ models, 55% savings via Crazyrouter gateway.'
+tags: 'ai, vietnamese, api, tutorial'
+canonical_url: null
+id: 3325033
+date: '2026-03-08T01:34:49Z'
 ---
 
 

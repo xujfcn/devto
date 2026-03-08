@@ -1,9 +1,11 @@
 ---
-title: "Cách giảm 55% chi phí AI API cho developer Việt Nam (2026)"
+title: Cách giảm 55% chi phí AI API cho developer Việt Nam (2026)
 published: true
-description: "AI API guide for Vietnamese developers. 627+ models, 55% savings via Crazyrouter gateway."
-tags: ai, vietnamese, api, tutorial
-canonical_url: 
+description: 'AI API guide for Vietnamese developers. 627+ models, 55% savings via Crazyrouter gateway.'
+tags: 'ai, vietnamese, api, tutorial'
+canonical_url: null
+id: 3325034
+date: '2026-03-08T01:34:52Z'
 ---
 
 

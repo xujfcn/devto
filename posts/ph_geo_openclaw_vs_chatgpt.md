@@ -1,9 +1,11 @@
 ---
-title: "OpenClaw + Crazyrouter vs ChatGPT Plus: Alin ang Mas Sulit para sa Pinoy Dev?"
+title: 'OpenClaw + Crazyrouter vs ChatGPT Plus: Alin ang Mas Sulit para sa Pinoy Dev?'
 published: true
-description: "AI API guide for Filipino developers. 627+ models with Crazyrouter, prices in PHP."
-tags: ai, philippines, api, tutorial
-canonical_url: 
+description: 'AI API guide for Filipino developers. 627+ models with Crazyrouter, prices in PHP.'
+tags: 'ai, philippines, api, tutorial'
+canonical_url: null
+id: 3325029
+date: '2026-03-08T01:34:19Z'
 ---
 
 
