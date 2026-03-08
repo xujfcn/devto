@@ -1,9 +1,11 @@
 ---
-title: "Build Your Own AI Telegram Bot (OpenClaw + Crazyrouter): Pinoy Dev Tutorial"
+title: 'Build Your Own AI Telegram Bot (OpenClaw + Crazyrouter): Pinoy Dev Tutorial'
 published: true
-description: "AI API guide for Filipino developers. 627+ models with Crazyrouter, prices in PHP."
-tags: ai, philippines, api, tutorial
-canonical_url: 
+description: 'AI API guide for Filipino developers. 627+ models with Crazyrouter, prices in PHP.'
+tags: 'ai, philippines, api, tutorial'
+canonical_url: null
+id: 3326447
+date: '2026-03-08T10:19:51Z'
 ---
 
 

@@ -1,8 +1,14 @@
 ---
-title: "How to Access 627+ AI Models from Claude Desktop with One MCP Server"
+title: How to Access 627+ AI Models from Claude Desktop with One MCP Server
 published: true
-tags: ["mcp", "ai", "api", "tutorial"]
-canonical_url: https://crazyrouter.com/blog?utm_source=devto&utm_medium=article&utm_campaign=dev_community
+tags:
+  - mcp
+  - ai
+  - api
+  - tutorial
+canonical_url: 'https://crazyrouter.com/blog?utm_source=devto&utm_medium=article&utm_campaign=dev_community'
+id: 3326443
+date: '2026-03-08T10:19:19Z'
 ---
 
 If you've been juggling multiple AI API keys — one for OpenAI, another for Anthropic, one for Google — you know the pain. What if your Claude Desktop (or Cursor, or VS Code) could access **627+ models** from all major providers through a single MCP server?

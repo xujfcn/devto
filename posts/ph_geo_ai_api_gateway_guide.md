@@ -1,9 +1,11 @@
 ---
-title: "Best AI API Gateway for Filipino Developers 2026: Access 627+ Models with 1 Key"
+title: 'Best AI API Gateway for Filipino Developers 2026: Access 627+ Models with 1 Key'
 published: true
-description: "AI API guide for Filipino developers. 627+ models with Crazyrouter, prices in PHP."
-tags: ai, philippines, api, tutorial
-canonical_url: 
+description: 'AI API guide for Filipino developers. 627+ models with Crazyrouter, prices in PHP.'
+tags: 'ai, philippines, api, tutorial'
+canonical_url: null
+id: 3326444
+date: '2026-03-08T10:19:20Z'
 ---
 
 
