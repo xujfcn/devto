@@ -1,10 +1,12 @@
 ---
-title: "3 bước triển khai AI Telegram Bot miễn phí trên Linux: Hướng dẫn từ A đến Z"
+title: '3 bước triển khai AI Telegram Bot miễn phí trên Linux: Hướng dẫn từ A đến Z'
 published: true
-description: "Hướng dẫn chi tiết cách tạo AI Telegram Bot sử dụng GPT-5, Claude, Gemini chỉ với 3 bước trên Linux"
-tags: ai, telegram, linux, vietnamese
-canonical_url:
-cover_image:
+description: 'Hướng dẫn chi tiết cách tạo AI Telegram Bot sử dụng GPT-5, Claude, Gemini chỉ với 3 bước trên Linux'
+tags: 'ai, telegram, linux, vietnamese'
+canonical_url: null
+cover_image: null
+id: 3338578
+date: '2026-03-11T09:02:46Z'
 ---
 # 3 bước triển khai AI Telegram Bot miễn phí trên Linux: Hướng dẫn từ A đến Z
 
