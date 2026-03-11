@@ -1,10 +1,12 @@
 ---
-title: "2026년 AI API 중계 서비스 비교: 가격으로 승부하는 7가지 OpenRouter 대안"
+title: '2026년 AI API 중계 서비스 비교: 가격으로 승부하는 7가지 OpenRouter 대안'
 published: true
-description: "AI API 비용을 절감하고 싶은 개발자를 위한 2026년 최신 AI API 게이트웨이 7가지 비교"
-tags: ai, api, openrouter, korean
-canonical_url:
-cover_image:
+description: AI API 비용을 절감하고 싶은 개발자를 위한 2026년 최신 AI API 게이트웨이 7가지 비교
+tags: 'ai, api, openrouter, korean'
+canonical_url: null
+cover_image: null
+id: 3338567
+date: '2026-03-11T09:01:52Z'
 ---
 # 2026년 AI API 중계 서비스 비교: 가격으로 승부하는 7가지 OpenRouter 대안
 
