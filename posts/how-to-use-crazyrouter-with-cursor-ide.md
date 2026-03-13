@@ -1,7 +1,9 @@
 ---
-title: 'How to Use 627+ AI Models in Cursor IDE with Crazyrouter (2026 Guide)'
+title: How to Use 627+ AI Models in Cursor IDE with Crazyrouter (2026 Guide)
 published: true
 tags: 'ai, cursor, coding, tutorial'
+id: 3345782
+date: '2026-03-13T01:39:03Z'
 ---
 
 Cursor IDE is powerful, but it only supports a few built-in models. Here's how to unlock 627+ models — including GPT-5, Claude Opus 4.6, DeepSeek R1, Gemini 3, and more — through Crazyrouter.

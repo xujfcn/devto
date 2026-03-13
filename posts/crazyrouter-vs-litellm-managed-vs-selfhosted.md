@@ -2,6 +2,8 @@
 title: 'Crazyrouter vs LiteLLM: Managed Gateway vs Self-Hosted Proxy (2026 Comparison)'
 published: true
 tags: 'ai, api, devops, comparison'
+id: 3345784
+date: '2026-03-13T01:39:34Z'
 ---
 
 Should you use a managed AI API gateway or self-host your own? I've used both Crazyrouter (managed) and LiteLLM (self-hosted) in production. Here's the real trade-off.
