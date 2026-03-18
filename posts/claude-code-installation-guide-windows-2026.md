@@ -5,6 +5,8 @@ description: 'A very detailed Windows guide to installing Claude Code for beginn
 tags: 'ai, productivity, cli, tutorial'
 canonical_url: null
 cover_image: null
+id: 3366102
+date: '2026-03-18T06:18:46Z'
 ---
 
 # Claude Code Installation Guide for Windows: Git, PATH, Environment Variables, PowerShell, WSL, and Full Troubleshooting (2026)

@@ -5,6 +5,8 @@ description: 'A beginner-friendly macOS guide to installing Claude Code the righ
 tags: 'ai, productivity, cli, tutorial'
 canonical_url: null
 cover_image: null
+id: 3366103
+date: '2026-03-18T06:18:46Z'
 ---
 
 # Claude Code Installation Guide for macOS: Git, Environment Variables, PATH, and Every Common Fix (2026)
