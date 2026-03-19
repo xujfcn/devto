@@ -1,12 +1,13 @@
 ---
-title: "Xiaomi MiMo-V2-Pro vs Claude in Production: Real Tests Through Crazyrouter"
+title: 'Xiaomi MiMo-V2-Pro vs Claude in Production: Real Tests Through Crazyrouter'
 slug: xiaomi-mimo-v2-pro-vs-claude-production-test-2026
-summary: "We tested Xiaomi MiMo-V2-Pro against Claude models on four real tasks through the Crazyrouter production API: Chinese reasoning, Python coding, long-context retrieval, and English marketing copy."
+summary: 'We tested Xiaomi MiMo-V2-Pro against Claude models on four real tasks through the Crazyrouter production API: Chinese reasoning, Python coding, long-context retrieval, and English marketing copy.'
 tag: Comparison
 language: en
-meta_title: "Xiaomi MiMo-V2-Pro vs Claude: Real Production Test via Crazyrouter"
-meta_description: "A practical production comparison of Xiaomi MiMo-V2-Pro and Claude models using Crazyrouter across reasoning, coding, long-context retrieval, and marketing tasks."
-meta_keywords: "Xiaomi MiMo-V2-Pro, Claude comparison, MiMo vs Claude, Crazyrouter, AI model production test, long context model"
+meta_title: 'Xiaomi MiMo-V2-Pro vs Claude: Real Production Test via Crazyrouter'
+meta_description: 'A practical production comparison of Xiaomi MiMo-V2-Pro and Claude models using Crazyrouter across reasoning, coding, long-context retrieval, and marketing tasks.'
+meta_keywords: 'Xiaomi MiMo-V2-Pro, Claude comparison, MiMo vs Claude, Crazyrouter, AI model production test, long context model'
+id: 3372758
 ---
 
 # Xiaomi MiMo-V2-Pro vs Claude in Production: Real Tests Through Crazyrouter
