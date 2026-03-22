@@ -1,9 +1,11 @@
 ---
-title: 'How to Add WeChat Support to OpenClaw with One Command — and Power It with Crazyrouter'
+title: How to Add WeChat Support to OpenClaw with One Command — and Power It with Crazyrouter
 published: true
 description: 'Use a single npx command to add WeChat support to OpenClaw, then connect GPT, Claude, Gemini, and DeepSeek through Crazyrouter with one API key.'
 tags: 'ai, opensource, tutorial, wechat'
 canonical_url: null
+id: 3383644
+date: '2026-03-22T11:47:00Z'
 ---
 
 > **Quick summary:** OpenClaw can now be extended with WeChat support through `npx -y @tencent-weixin/openclaw-weixin-cli@latest install`. That gives you the messaging layer. If you want the model layer to stay flexible and cheap, connect OpenClaw to Crazyrouter — one API key for GPT, Claude, Gemini, DeepSeek, and hundreds of other models through the same OpenAI-compatible API.
