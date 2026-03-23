@@ -1,7 +1,7 @@
 ---
-title: 'Why OpenClaw + WeChat Is Better with Crazyrouter Than a Single Model API'
+title: Why OpenClaw + WeChat Is Better with Crazyrouter Than a Single Model API
 published: false
-description: 'Connecting OpenClaw to WeChat is only the first step. Here is why a multi-model backend like Crazyrouter is a better long-term architecture than wiring one model provider directly.'
+description: Connecting OpenClaw to WeChat is only the first step. Here is why a multi-model backend like Crazyrouter is a better long-term architecture than wiring one model provider directly.
 tags: 'ai, api, opensource, wechat'
 canonical_url: null
 id: 3386662
