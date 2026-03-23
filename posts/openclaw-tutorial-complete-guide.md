@@ -7,7 +7,7 @@ series: "OpenClaw Deep Dive"
 
 # OpenClaw Tutorial: The Complete Guide to Building Your Private AI Assistant
 
-![AI assistant setup in a futuristic terminal interface](https://raw.githubusercontent.com/xujfcn/devto/main/images/01_tutorial_img1.png)
+![AI assistant setup in a futuristic terminal interface](https://raw.githubusercontent.com/xujfcn/images/main/openclaw/01_tutorial_img1.jpg)
 
 Ever wanted your own AI assistant — not a web-based ChatGPT wrapper, but something running on *your* server, always on, talking to you through Telegram? Something you actually control?
 
