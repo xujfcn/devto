@@ -1,6 +1,6 @@
 ---
-title: What Can You Actually Build After Connecting OpenClaw to WeChat? 5 Practical Use Cases
-published: true
+title: 'What Can You Actually Build After Connecting OpenClaw to WeChat? 5 Practical Use Cases'
+published: false
 description: 'After adding WeChat support to OpenClaw, what should you build next? Here are 5 practical use cases — and how Crazyrouter helps with model choice and cost control.'
 tags: 'ai, wechat, opensource, productivity'
 canonical_url: null
