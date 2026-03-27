@@ -1,7 +1,7 @@
 ---
 title: "Best AI API Gateway for Developers in 2026: 9 Platforms Tested"
 description: "We tested 9 AI API gateways for model coverage, pricing, multi-modal support, and developer experience. Here's which ones are worth using in 2026."
-tags: [ai, api, gateway, llm, comparison]
+tags: ai, api, gateway, llm
 canonical_url: https://crazyrouter.com/blog/best-ai-api-gateway-for-developers-2026
 published: true
 ---
