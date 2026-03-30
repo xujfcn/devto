@@ -1,9 +1,11 @@
 ---
-title: "Tokens vs Bytes in AI: What LLMs Actually See When You Type"
+title: 'Tokens vs Bytes in AI: What LLMs Actually See When You Type'
 published: true
-tags: ai, tokenization, llm, tutorial
-canonical_url: https://crazyrouter.com/blog/tokens-vs-bytes-what-llms-actually-see?utm_source=devto&utm_medium=article&utm_campaign=tokens_vs_bytes
-cover_image: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/tokens-vs-bytes-what-llms-actually-see.webp
+tags: 'ai, tokenization, llm, tutorial'
+canonical_url: 'https://crazyrouter.com/blog/tokens-vs-bytes-what-llms-actually-see?utm_source=devto&utm_medium=article&utm_campaign=tokens_vs_bytes'
+cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/tokens-vs-bytes-what-llms-actually-see.webp'
+id: 3429321
+date: '2026-03-30T07:32:20Z'
 ---
 
 You type "你好 Hello" into GPT-5. That's 7 characters. But the model processes it as **2 tokens** — and your bill is based on those tokens, not the characters.
