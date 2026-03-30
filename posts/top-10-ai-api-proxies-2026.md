@@ -1,9 +1,10 @@
 ---
-title: "Top 10 AI API Proxies & Reverse Proxies for Developers in 2026"
+title: Top 10 AI API Proxies & Reverse Proxies for Developers in 2026
 published: false
-description: "A hands-on comparison of 10 AI API proxies — commercial, open-source, and self-hosted — with real pricing, code examples, and feature matrix."
-tags: ai, api, llm, openai
-canonical_url: https://crazyrouter.com/blog/top-10-ai-api-proxies-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy
+description: 'A hands-on comparison of 10 AI API proxies — commercial, open-source, and self-hosted — with real pricing, code examples, and feature matrix.'
+tags: 'ai, api, llm, openai'
+canonical_url: 'https://crazyrouter.com/blog/top-10-ai-api-proxies-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy'
+id: 3429370
 ---
 
 <!-- UTM for Dev.to -->
