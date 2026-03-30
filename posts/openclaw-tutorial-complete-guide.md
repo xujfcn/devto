@@ -1,8 +1,9 @@
 ---
-title: "OpenClaw Tutorial: Build Your Own Private AI Assistant from Scratch"
+title: 'OpenClaw Tutorial: Build Your Own Private AI Assistant from Scratch'
 id: 3429371
 published: true
-tags: openclaw, ai, selfhosted, tutorial
+tags: 'openclaw, ai, selfhosted, tutorial'
+date: '2026-03-30T07:41:46Z'
 ---
 
 # OpenClaw Tutorial: The Complete Guide to Building Your Private AI Assistant
