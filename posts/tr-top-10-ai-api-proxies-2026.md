@@ -1,10 +1,11 @@
 ---
-title: "2026'da En İyi 10 AI API Proxy: Geliştiriciler İçin Kapsamlı Karşılaştırma"
+title: '2026''da En İyi 10 AI API Proxy: Geliştiriciler İçin Kapsamlı Karşılaştırma'
 published: false
-description: "Ticari, açık kaynak ve kendi sunucunuzda barındırabileceğiniz 10 AI API proxy — gerçek fiyatlar, çalışan kod ve özellik matrisi."
+description: 'Ticari, açık kaynak ve kendi sunucunuzda barındırabileceğiniz 10 AI API proxy — gerçek fiyatlar, çalışan kod ve özellik matrisi.'
 tags: 'ai, api, proxy, turkiye'
 canonical_url: 'https://crazyrouter.com/blog/top-10-ai-api-proxies-2026?utm_source=devto&utm_medium=article&utm_campaign=top10_proxy_tr'
 cover_image: null
+id: 3443777
 ---
 
 # 2026'da En İyi 10 AI API Proxy: Geliştiriciler İçin Kapsamlı Karşılaştırma
