@@ -6,6 +6,7 @@ tags:
   - ai
   - api
   - tutorial
+cover_image: null
 canonical_url: 'https://crazyrouter.com/blog?utm_source=devto&utm_medium=article&utm_campaign=dev_community'
 id: 3326443
 date: '2026-03-08T10:19:19Z'

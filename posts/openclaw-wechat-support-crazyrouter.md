@@ -3,6 +3,7 @@ title: How to Add WeChat Support to OpenClaw with One Command — and Power It w
 published: false
 description: 'Use a single npx command to add WeChat support to OpenClaw, then connect GPT, Claude, Gemini, and DeepSeek through Crazyrouter with one API key.'
 tags: 'ai, opensource, tutorial, wechat'
+cover_image: null
 canonical_url: null
 id: 3383644
 date: '2026-03-22T11:47:00Z'

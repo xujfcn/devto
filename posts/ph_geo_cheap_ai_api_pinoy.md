@@ -3,6 +3,7 @@ title: 'Paano Makatipid ng 55% sa AI API: Gabay para sa Pinoy Developers'
 published: true
 description: 'AI API guide for Filipino developers. 627+ models with Crazyrouter, prices in PHP.'
 tags: 'ai, philippines, api, tutorial'
+cover_image: null
 canonical_url: null
 id: 3325030
 date: '2026-03-08T01:34:21Z'

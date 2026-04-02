@@ -1,9 +1,11 @@
 ---
-title: 'OpenClaw Tutorial: Build Your Own Private AI Assistant from Scratch'
-id: 3429371
+title: "OpenClaw Tutorial: Build Your Own Private AI Assistant from Scratch"
 published: true
-tags: 'openclaw, ai, selfhosted, tutorial'
-date: '2026-03-30T07:41:46Z'
+description: 'A complete beginner-friendly OpenClaw tutorial covering installation, Telegram bot setup, model configuration, memory, skills, and self-hosting workflow.'
+tags: ["openclaw", "ai", "selfhosted", "tutorial"]
+series: "OpenClaw Deep Dive"
+canonical_url: null
+cover_image: null
 ---
 
 # OpenClaw Tutorial: The Complete Guide to Building Your Private AI Assistant
@@ -162,7 +164,7 @@ Your assistant will automatically pick the best model based on task complexity a
 
 ## Step 3: Connect a Chat Platform (Telegram, WhatsApp, Discord)
 
-![AI assistant connecting to multiple chat platforms](https://raw.githubusercontent.com/xujfcn/images/main/openclaw/01_tutorial_img2.jpg)
+![AI assistant connecting to multiple chat platforms](https://raw.githubusercontent.com/xujfcn/devto/main/images/01_tutorial_img2.png)
 
 Model configured — now let's get your assistant online by connecting it to a chat platform. OpenClaw supports Telegram, WhatsApp, Discord, and more.
 
@@ -258,7 +260,7 @@ If you see `running`, you're good. Port conflict? Change it in the config file.
 
 ### The Control UI
 
-![OpenClaw Dashboard management interface](https://raw.githubusercontent.com/xujfcn/images/main/openclaw/01_tutorial_img3.jpg)
+![OpenClaw Dashboard management interface](https://raw.githubusercontent.com/xujfcn/devto/main/images/01_tutorial_img3.png)
 
 OpenClaw ships with a web management interface:
 

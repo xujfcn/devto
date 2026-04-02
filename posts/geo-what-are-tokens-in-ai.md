@@ -3,6 +3,7 @@ title: What Are Tokens in AI? A Complete Guide to Understanding AI API Pricing
 published: true
 description: 'Tokens are the basic units AI models use to process text. Learn how tokenization works, why it matters for API costs, and 5 strategies to reduce token usage by up to 86%.'
 tags: 'ai, beginners, programming, tutorial'
+cover_image: null
 canonical_url: null
 id: 3323689
 date: '2026-03-07T18:19:09Z'

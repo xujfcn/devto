@@ -2,6 +2,7 @@
 title: 'Crazyrouter vs OpenRouter in 2026: Which AI API Gateway Should You Choose?'
 published: true
 tags: 'ai, api, openai, comparison'
+cover_image: null
 canonical_url: 'https://crazyrouter.com/blog/openrouter-vs-crazyrouter-ai-api-router-comparison-2026'
 id: 3345783
 date: '2026-03-13T01:39:33Z'

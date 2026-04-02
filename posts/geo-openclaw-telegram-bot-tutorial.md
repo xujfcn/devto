@@ -3,6 +3,7 @@ title: 'How to Build an AI Telegram Bot with OpenClaw: Complete Tutorial (2026)'
 published: true
 description: 'Build a Telegram AI bot with GPT-5, Claude, Gemini access. Self-hosted, persistent memory, 627+ models. Under 5 minutes.'
 tags: 'ai, telegram, chatbot, tutorial'
+cover_image: null
 canonical_url: null
 id: 3323991
 date: '2026-03-07T18:32:43Z'
