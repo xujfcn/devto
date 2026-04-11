@@ -1,9 +1,11 @@
 ---
-title: "Claude Code Complete Tutorial: From Installation to Production (2026)"
+title: 'Claude Code Complete Tutorial: From Installation to Production (2026)'
 published: true
-description: "Step-by-step guide to Claude Code — Anthropic's terminal-based AI coding assistant. Installation, configuration with API gateway (45% cheaper), core features, CI/CD integration, and advanced tips."
-tags: ai, programming, claudecode, tutorial
-canonical_url: https://crazyrouter.com/blog/claude-code-complete-tutorial-2026
+description: 'Step-by-step guide to Claude Code — Anthropic''s terminal-based AI coding assistant. Installation, configuration with API gateway (45% cheaper), core features, CI/CD integration, and advanced tips.'
+tags: 'ai, programming, claudecode, tutorial'
+canonical_url: 'https://crazyrouter.com/blog/claude-code-complete-tutorial-2026'
+id: 3487880
+date: '2026-04-11T16:35:40Z'
 ---
 
 ## What is Claude Code?
