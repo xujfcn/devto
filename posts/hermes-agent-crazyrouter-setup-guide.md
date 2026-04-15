@@ -1,9 +1,11 @@
 ---
-title: "How to Use Hermes Agent with Crazyrouter — 600+ Models, Lower Cost"
+title: 'How to Use Hermes Agent with Crazyrouter — 600+ Models, Lower Cost'
 published: true
-description: "Configure NousResearch Hermes Agent to use Crazyrouter instead of OpenRouter. Access 600+ AI models at lower cost with a single API key. One-command setup, no code changes."
-tags: ai, llm, api, devtools
-canonical_url: https://xufjcn.hashnode.dev/hermes-agent-crazyrouter-setup-guide
+description: 'Configure NousResearch Hermes Agent to use Crazyrouter instead of OpenRouter. Access 600+ AI models at lower cost with a single API key. One-command setup, no code changes.'
+tags: 'ai, llm, api, devtools'
+canonical_url: 'https://xufjcn.hashnode.dev/hermes-agent-crazyrouter-setup-guide'
+id: 3506613
+date: '2026-04-15T18:44:44Z'
 ---
 
 # How to Use Hermes Agent with Crazyrouter — 600+ Models, Lower Cost

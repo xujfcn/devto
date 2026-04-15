@@ -5,6 +5,8 @@ description: 'Claude API maliyetlerini düşürmenin 5 yolu. Abonelik gerekmez, 
 tags: 'ai, api, programming, tutorial'
 cover_image: null
 canonical_url: null
+id: 3506614
+date: '2026-04-15T18:44:46Z'
 ---
 
 Claude API pahalı mı geliyor? Yalnız değilsiniz.
