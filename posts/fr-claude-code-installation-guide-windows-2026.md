@@ -5,6 +5,8 @@ description: 'Un guide Windows très détaillé pour installer Claude Code pour 
 tags: 'ai, cli, tutorial, windows'
 canonical_url: null
 cover_image: 'https://lsky.zhongzhuan.chat/i/2025/12/29/69523b0cd9f0d.png'
+id: 3511064
+date: '2026-04-16T14:53:49Z'
 ---
 
 Les utilisateurs Windows rencontrent généralement une série de problèmes différents de ceux des utilisateurs macOS avec Claude Code.
