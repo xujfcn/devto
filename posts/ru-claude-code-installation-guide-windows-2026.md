@@ -5,6 +5,8 @@ description: 'Подробное руководство по установке 
 tags: 'ai, cli, tutorial, windows'
 canonical_url: null
 cover_image: 'https://lsky.zhongzhuan.chat/i/2025/12/29/69523b0cd9f0d.png'
+id: 3511048
+date: '2026-04-16T14:49:04Z'
 ---
 
 Пользователи Windows обычно сталкиваются с другим набором проблем при работе с Claude Code, чем пользователи macOS.

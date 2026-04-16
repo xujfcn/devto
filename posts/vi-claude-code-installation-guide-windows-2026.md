@@ -5,6 +5,8 @@ description: 'Hướng dẫn chi tiết cho người mới bắt đầu về cá
 tags: 'ai, cli, tutorial, windows'
 canonical_url: null
 cover_image: 'https://lsky.zhongzhuan.chat/i/2025/12/29/69523b0cd9f0d.png'
+id: 3511044
+date: '2026-04-16T14:48:35Z'
 ---
 
 Người dùng Windows thường gặp phải những vấn đề khác với người dùng macOS khi sử dụng Claude Code.
