@@ -260,7 +260,7 @@ If you see `running`, you're good. Port conflict? Change it in the config file.
 
 ### The Control UI
 
-![OpenClaw Dashboard management interface](https://raw.githubusercontent.com/xujfcn/devto/main/images/01_tutorial_img3.png)
+![OpenClaw Dashboard management interface](https://raw.githubusercontent.com/xujfcn/images/main/openclaw/01_tutorial_img1.jpg)
 
 OpenClaw ships with a web management interface:
 
