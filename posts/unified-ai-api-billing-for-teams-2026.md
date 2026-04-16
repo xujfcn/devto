@@ -1,10 +1,12 @@
 ---
-title: "Unified Billing for Claude and GPT: One Invoice, One Dashboard, One API Key"
+title: 'Unified Billing for Claude and GPT: One Invoice, One Dashboard, One API Key'
 published: true
-description: "Managing multiple AI API accounts is a billing nightmare for teams. Here is how to consolidate Claude, GPT, DeepSeek, and 600+ models under one account with unified usage tracking."
-tags: ai, api, billing, devops
-canonical_url: https://crazyrouter.com/blog/enterprise-ai-api-gateway-selection-guide?utm_source=devto&utm_medium=article&utm_campaign=enterprise
-cover_image: https://media.crazyrouter.com/task-artifacts/2026/04/16/sync-image/20260416040147852845992MIWNXDFl-1.jpeg
+description: 'Managing multiple AI API accounts is a billing nightmare for teams. Here is how to consolidate Claude, GPT, DeepSeek, and 600+ models under one account with unified usage tracking.'
+tags: 'ai, api, billing, devops'
+canonical_url: 'https://crazyrouter.com/blog/enterprise-ai-api-gateway-selection-guide?utm_source=devto&utm_medium=article&utm_campaign=enterprise'
+cover_image: 'https://media.crazyrouter.com/task-artifacts/2026/04/16/sync-image/20260416040147852845992MIWNXDFl-1.jpeg'
+id: 3509179
+date: '2026-04-16T08:31:07Z'
 ---
 
 # Unified Billing for Claude and GPT: One Invoice, One Dashboard, One API Key
