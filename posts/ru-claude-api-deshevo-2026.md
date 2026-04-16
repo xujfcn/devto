@@ -5,6 +5,8 @@ description: '5 способов снизить расходы на Claude API. 
 tags: 'ai, api, programming, tutorial'
 cover_image: null
 canonical_url: null
+id: 3508000
+date: '2026-04-16T03:44:09Z'
 ---
 
 Claude API стоит дорого? Вы не одиноки.
