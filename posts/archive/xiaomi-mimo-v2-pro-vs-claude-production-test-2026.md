@@ -6,6 +6,7 @@ tags: 'ai, comparison, llm, tutorial'
 canonical_url: null
 cover_image: null
 date: '2026-03-19T00:00:00Z'
+id: 3509447
 ---
 
 # Xiaomi MiMo-V2-Pro vs Claude in Production: Real Tests Through Crazyrouter
