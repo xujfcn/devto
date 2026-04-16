@@ -1,11 +1,10 @@
 ---
 title: 'Xiaomi MiMo-V2-Pro vs Claude in Production: Real Tests Through Crazyrouter'
-published: true
+published: false
 description: 'We tested Xiaomi MiMo-V2-Pro against Claude models on four real tasks through the Crazyrouter production API: Chinese reasoning, Python coding, long-context retrieval, and English marketing copy.'
 tags: 'ai, comparison, llm, tutorial'
 canonical_url: null
 cover_image: null
-id: 3372758
 date: '2026-03-19T00:00:00Z'
 ---
 

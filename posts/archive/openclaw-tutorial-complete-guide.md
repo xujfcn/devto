@@ -164,7 +164,7 @@ Your assistant will automatically pick the best model based on task complexity a
 
 ## Step 3: Connect a Chat Platform (Telegram, WhatsApp, Discord)
 
-![AI assistant connecting to multiple chat platforms](https://raw.githubusercontent.com/xujfcn/devto/main/images/01_tutorial_img2.png)
+![AI assistant connecting to multiple chat platforms](https://raw.githubusercontent.com/xujfcn/images/main/openclaw/01_tutorial_img1.jpg)
 
 Model configured — now let's get your assistant online by connecting it to a chat platform. OpenClaw supports Telegram, WhatsApp, Discord, and more.
 
