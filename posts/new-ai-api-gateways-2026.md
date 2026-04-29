@@ -1,8 +1,10 @@
 ---
-title: "7 New AI API Gateways You Should Know in 2026"
+title: 7 New AI API Gateways You Should Know in 2026
 published: true
-tags: ai, api, gateway, llm
-canonical_url: https://crazyrouter.com/en/blog/new-ai-api-gateways-2026
+tags: 'ai, api, gateway, llm'
+canonical_url: 'https://crazyrouter.com/en/blog/new-ai-api-gateways-2026'
+id: 3588017
+date: '2026-04-29T18:43:41Z'
 ---
 
 The AI API gateway market has exploded in 2026. What used to be a two-horse race between OpenRouter and a handful of open-source tools has turned into a crowded field with serious new contenders.
