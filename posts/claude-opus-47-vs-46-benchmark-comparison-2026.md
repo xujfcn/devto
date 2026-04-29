@@ -1,7 +1,7 @@
 ---
-title: Claude Opus 4.7 vs Opus 4.6: 7 Real-World Benchmarks via Crazyrouter
+title: "Claude Opus 4.7 vs Opus 4.6: 7 Real-World Benchmarks via Crazyrouter"
 published: true
-description: We benchmarked Claude Opus 4.7 against Opus 4.6 on 7 tasks through Crazyrouter: coding, debugging, math, writing, translation, context, and reasoning.
+description: "We benchmarked Claude Opus 4.7 against Opus 4.6 on 7 tasks through Crazyrouter: coding, debugging, math, writing, translation, context, and reasoning."
 tags: claude, ai, benchmark, api
 canonical_url: https://crazyrouter.com/blog/claude-opus-47-vs-46-benchmark-comparison-2026
 ---
