@@ -5,7 +5,7 @@ description: text-embedding-3-large — для чего нужен embeddings-м
 tags: 'ai, api, rag, tutorial'
 cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/text-embedding-3-large-rag-cover.webp'
 canonical_url: null
-id: 3699221
+id: 3699314
 date: '2026-05-19T09:37:32Z'
 ---
 

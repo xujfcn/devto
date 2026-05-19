@@ -5,6 +5,7 @@ description: 'text-embedding-3-large の用途：Embeddings 入門と RAG での
 tags: 'ai, rag, embeddings, tutorial'
 cover_image: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/text-embedding-3-large-rag-cover.webp
 canonical_url: null
+id: 3699308
 ---
 
 # text-embedding-3-large の用途：Embeddings 入門と RAG での使い方

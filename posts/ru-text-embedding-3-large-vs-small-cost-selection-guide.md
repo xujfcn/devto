@@ -5,7 +5,7 @@ description: 'text-embedding-3-large или small: стоимость, каче�
 tags: 'ai, api, rag, tutorial'
 cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/embedding-large-vs-small-cover.webp'
 canonical_url: null
-id: 3699224
+id: 3699315
 date: '2026-05-19T09:37:33Z'
 ---
 
