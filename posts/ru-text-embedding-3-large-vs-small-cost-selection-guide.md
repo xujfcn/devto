@@ -3,8 +3,10 @@ title: 'text-embedding-3-large или small: стоимость, качеств�
 published: true
 description: 'text-embedding-3-large или small: стоимость, качество поиска и выбор для RAG'
 tags: 'ai, api, rag, tutorial'
-cover_image: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/embedding-large-vs-small-cover.webp
+cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/embedding-large-vs-small-cover.webp'
 canonical_url: null
+id: 3699224
+date: '2026-05-19T09:37:33Z'
 ---
 
 # text-embedding-3-large или small: стоимость, качество поиска и выбор для RAG

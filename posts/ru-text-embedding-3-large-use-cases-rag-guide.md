@@ -1,10 +1,12 @@
 ---
-title: 'text-embedding-3-large — для чего нужен embeddings-модель и как он работает в RAG'
+title: text-embedding-3-large — для чего нужен embeddings-модель и как он работает в RAG
 published: true
-description: 'text-embedding-3-large — для чего нужен embeddings-модель и как он работает в RAG'
+description: text-embedding-3-large — для чего нужен embeddings-модель и как он работает в RAG
 tags: 'ai, api, rag, tutorial'
-cover_image: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/text-embedding-3-large-rag-cover.webp
+cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/text-embedding-3-large-rag-cover.webp'
 canonical_url: null
+id: 3699221
+date: '2026-05-19T09:37:32Z'
 ---
 
 # text-embedding-3-large — для чего нужен embeddings-модель и как он работает в RAG
