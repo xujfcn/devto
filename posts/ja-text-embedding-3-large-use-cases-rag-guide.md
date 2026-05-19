@@ -1,10 +1,12 @@
 ---
-title: 'text-embedding-3-large の用途：Embeddings 入門と RAG での使い方'
+title: text-embedding-3-large の用途：Embeddings 入門と RAG での使い方
 published: true
-description: 'text-embedding-3-large の用途：Embeddings 入門と RAG での使い方'
+description: text-embedding-3-large の用途：Embeddings 入門と RAG での使い方
 tags: 'ai, rag, embeddings, tutorial'
-cover_image: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/text-embedding-3-large-rag-cover.webp
+cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/text-embedding-3-large-rag-cover.webp'
 canonical_url: null
+id: 3699165
+date: '2026-05-19T09:30:33Z'
 ---
 
 # text-embedding-3-large の用途：Embeddings 入門と RAG での使い方

@@ -1,8 +1,10 @@
 ---
-title: "DeepSeek V4 Complete Guide — 1.6T MoE with 1M Context at 73% Lower Cost"
+title: DeepSeek V4 Complete Guide — 1.6T MoE with 1M Context at 73% Lower Cost
 published: true
-tags: ai, deepseek, llm, api
-canonical_url: https://crazyrouter.com/en/blog/deepseek-v4-complete-guide
+tags: 'ai, deepseek, llm, api'
+canonical_url: 'https://crazyrouter.com/en/blog/deepseek-v4-complete-guide'
+id: 3699162
+date: '2026-05-19T09:30:31Z'
 ---
 
 # DeepSeek V4 Complete Guide — 1.6T MoE with 1M Context at 73% Lower Cost

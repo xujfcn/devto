@@ -3,8 +3,10 @@ title: 'Как построить RAG-базу знаний на text-embedding-
 published: true
 description: 'Как построить RAG-базу знаний на text-embedding-3-large: chunking, embeddings и rerank'
 tags: 'ai, api, rag, tutorial'
-cover_image: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/build-rag-knowledge-base-cover.webp
+cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/build-rag-knowledge-base-cover.webp'
 canonical_url: null
+id: 3699169
+date: '2026-05-19T09:31:02Z'
 ---
 
 # Как построить RAG-базу знаний на text-embedding-3-large: chunking, embeddings и rerank
