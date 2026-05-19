@@ -19,7 +19,7 @@ jobs:
         with:
           devto_key: ${{ secrets.DEVTO_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          files: 'posts/ja-build-rag-knowledge-base-with-text-embedding-3-large.md'
+          files: 'posts/**/*.md'
           branch: main
           conventional_commits: true
           dry_run: false
