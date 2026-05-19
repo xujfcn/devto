@@ -383,3 +383,4 @@ OpenAI互換SDKで [Crazyrouter embeddings API](https://docs.crazyrouter.com?utm
 ### RAGにrerankは必要？
 
 本番運用なら推奨です。embeddingで高速召喚、rerankで精密順位付け。この組み合わせが最も安定します。
+<!-- retry-devto-single: 2026-05-19T10:51Z -->
