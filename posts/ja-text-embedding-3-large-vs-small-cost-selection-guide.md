@@ -1,10 +1,12 @@
 ---
-title: 'text-embedding-3-large は使うべき？small とのコスト・品質・選び方'
+title: text-embedding-3-large は使うべき？small とのコスト・品質・選び方
 published: true
-description: 'text-embedding-3-large は使うべき？small とのコスト・品質・選び方'
+description: text-embedding-3-large は使うべき？small とのコスト・品質・選び方
 tags: 'ai, rag, embeddings, tutorial'
-cover_image: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/embedding-large-vs-small-cover.webp
+cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/embedding-large-vs-small-cover.webp'
 canonical_url: null
+id: 3699331
+date: '2026-05-19T09:51:10Z'
 ---
 
 # text-embedding-3-large は使うべき？small とのコスト・品質・選び方
