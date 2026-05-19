@@ -1,10 +1,12 @@
 ---
-title: 'text-embedding-3-large で RAG ナレッジベースを作る：チャンク分割から検索順位付けまで'
+title: text-embedding-3-large で RAG ナレッジベースを作る：チャンク分割から検索順位付けまで
 published: true
-description: 'text-embedding-3-large で RAG ナレッジベースを作る：チャンク分割から検索順位付けまで'
+description: text-embedding-3-large で RAG ナレッジベースを作る：チャンク分割から検索順位付けまで
 tags: 'ai, rag, embeddings, tutorial'
-cover_image: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/build-rag-knowledge-base-cover.webp
+cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/build-rag-knowledge-base-cover.webp'
 canonical_url: null
+id: 3699802
+date: '2026-05-19T10:52:26Z'
 ---
 
 # text-embedding-3-large で RAG ナレッジベースを作る：チャンク分割から検索順位付けまで
