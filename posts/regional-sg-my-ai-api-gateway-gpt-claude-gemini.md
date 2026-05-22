@@ -1,9 +1,11 @@
 ---
-title: "AI API Gateway for Singapore and Malaysia Developers: One Endpoint for GPT, Claude and Gemini"
+title: 'AI API Gateway for Singapore and Malaysia Developers: One Endpoint for GPT, Claude and Gemini'
 published: true
-description: "A practical setup guide for Singapore and Malaysia developers who want one OpenAI-compatible endpoint for GPT, Claude and Gemini."
-tags: ai, api, tutorial, devtools
-canonical_url: https://docs.crazyrouter.com/en/introduction?utm_source=devto&utm_medium=article&utm_campaign=docs_intro_sg_my
+description: 'A practical setup guide for Singapore and Malaysia developers who want one OpenAI-compatible endpoint for GPT, Claude and Gemini.'
+tags: 'ai, api, tutorial, devtools'
+canonical_url: 'https://docs.crazyrouter.com/en/introduction?utm_source=devto&utm_medium=article&utm_campaign=docs_intro_sg_my'
+id: 3726389
+date: '2026-05-22T14:25:19Z'
 ---
 
 # AI API Gateway for Singapore and Malaysia Developers: One Endpoint for GPT, Claude and Gemini

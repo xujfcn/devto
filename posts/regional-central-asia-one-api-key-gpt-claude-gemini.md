@@ -1,9 +1,11 @@
 ---
-title: "One API Key for GPT, Claude and Gemini: A Practical Setup for Central Asia Developers"
+title: 'One API Key for GPT, Claude and Gemini: A Practical Setup for Central Asia Developers'
 published: true
-description: "A practical tutorial for developers in Central Asia who want to call GPT, Claude and Gemini from one OpenAI-compatible API gateway."
-tags: ai, api, tutorial, devtools
-canonical_url: https://docs.crazyrouter.com/en/introduction?utm_source=devto&utm_medium=article&utm_campaign=docs_intro_central_asia
+description: 'A practical tutorial for developers in Central Asia who want to call GPT, Claude and Gemini from one OpenAI-compatible API gateway.'
+tags: 'ai, api, tutorial, devtools'
+canonical_url: 'https://docs.crazyrouter.com/en/introduction?utm_source=devto&utm_medium=article&utm_campaign=docs_intro_central_asia'
+id: 3726384
+date: '2026-05-22T14:24:48Z'
 ---
 
 # One API Key for GPT, Claude and Gemini: A Practical Setup for Central Asia Developers

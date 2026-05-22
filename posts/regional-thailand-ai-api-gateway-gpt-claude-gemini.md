@@ -1,9 +1,11 @@
 ---
-title: "AI API Gateway for Thai Developers: Use GPT, Claude and Gemini with One Key"
+title: 'AI API Gateway for Thai Developers: Use GPT, Claude and Gemini with One Key'
 published: true
-description: "A practical guide for developers in Thailand who want one OpenAI-compatible endpoint for GPT, Claude and Gemini model calls."
-tags: ai, api, tutorial, devtools
-canonical_url: https://docs.crazyrouter.com/en/introduction?utm_source=devto&utm_medium=article&utm_campaign=docs_intro_thailand
+description: 'A practical guide for developers in Thailand who want one OpenAI-compatible endpoint for GPT, Claude and Gemini model calls.'
+tags: 'ai, api, tutorial, devtools'
+canonical_url: 'https://docs.crazyrouter.com/en/introduction?utm_source=devto&utm_medium=article&utm_campaign=docs_intro_thailand'
+id: 3726390
+date: '2026-05-22T14:25:20Z'
 ---
 
 # AI API Gateway for Thai Developers: Use GPT, Claude and Gemini with One Key

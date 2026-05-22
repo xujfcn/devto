@@ -1,9 +1,11 @@
 ---
-title: "Cómo usar GPT, Claude y Gemini con una sola API key"
+title: 'Cómo usar GPT, Claude y Gemini con una sola API key'
 published: true
-description: "Una guía práctica para desarrolladores en México: configura Crazyrouter una vez y llama modelos de OpenAI, Anthropic y Google desde el mismo endpoint compatible con OpenAI."
-tags: ai, api, tutorial, spanish
-canonical_url: https://docs.crazyrouter.com/en/introduction?utm_source=devto&utm_medium=article&utm_campaign=docs_intro_mexico
+description: 'Una guía práctica para desarrolladores en México: configura Crazyrouter una vez y llama modelos de OpenAI, Anthropic y Google desde el mismo endpoint compatible con OpenAI.'
+tags: 'ai, api, tutorial, spanish'
+canonical_url: 'https://docs.crazyrouter.com/en/introduction?utm_source=devto&utm_medium=article&utm_campaign=docs_intro_mexico'
+id: 3726386
+date: '2026-05-22T14:24:49Z'
 ---
 
 # Cómo usar GPT, Claude y Gemini con una sola API key
