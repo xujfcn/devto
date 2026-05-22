@@ -1,9 +1,11 @@
 ---
-title: "AI-Readable Docs for Coding Agents: How to Use llms.txt in Real Projects"
+title: 'AI-Readable Docs for Coding Agents: How to Use llms.txt in Real Projects'
 published: true
-description: "A practical tutorial for using llms.txt and llms-full.txt to help coding agents find the right documentation before they edit code."
-tags: ai, docs, agents, tutorial
-canonical_url: https://docs.crazyrouter.com/en/introduction?utm_source=devto&utm_medium=article&utm_campaign=docs_intro
+description: A practical tutorial for using llms.txt and llms-full.txt to help coding agents find the right documentation before they edit code.
+tags: 'ai, docs, agents, tutorial'
+canonical_url: 'https://docs.crazyrouter.com/en/introduction?utm_source=devto&utm_medium=article&utm_campaign=docs_intro'
+id: 3725345
+date: '2026-05-22T11:53:35Z'
 ---
 
 AI coding agents are only as useful as the context they can find.
