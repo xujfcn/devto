@@ -6,6 +6,7 @@ tags: claude, ai, cli, tutorial
 canonical_url: https://docs.crazyrouter.com/en/integrations/claude-code?utm_source=devto&utm_medium=article&utm_campaign=docs_intro
 ---
 
+<!-- retry-publish: 2026-05-22T12:06Z -->
 Claude Code is a terminal-first coding assistant. It can read a repository, explain code, edit files, run commands, and help with refactors from inside your development workflow.
 
 If you want to use it with a third-party API gateway, the setup is mostly environment variables. The part that often trips people up is this:
