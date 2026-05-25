@@ -1,14 +1,16 @@
 ---
-title: "Seedance 2.0 Pricing: Convert 46 CNY per Million Tokens to Cost per Second"
-slug: "seedance-2-0-pricing-token-to-second-cost-2026"
-summary: "Seedance 2.0 uses token-based video pricing. This guide converts 46 CNY per million tokens into per-second and per-video costs for pure generation and video editing."
-tags: ai, video, api, pricing
+title: 'Seedance 2.0 Pricing: Convert 46 CNY per Million Tokens to Cost per Second'
+slug: seedance-2-0-pricing-token-to-second-cost-2026
+summary: Seedance 2.0 uses token-based video pricing. This guide converts 46 CNY per million tokens into per-second and per-video costs for pure generation and video editing.
+tags: 'ai, video, api, pricing'
 published: true
 language: en
-cover_image_url: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/seedance-2-0-pricing-token-to-second-cost-2026.webp
-meta_title: "Seedance 2.0 Pricing: Token to Second Cost Calculator 2026"
-meta_description: "Convert Seedance 2.0 official pricing from 46 CNY per million tokens into cost per second, 5s, 15s, 30s, and 60s video generation budgets."
-meta_keywords: seedance 2.0 pricing, seedance pricing, seedance api cost, seedance cost per second, bytedance video ai pricing
+cover_image_url: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/seedance-2-0-pricing-token-to-second-cost-2026.webp'
+meta_title: 'Seedance 2.0 Pricing: Token to Second Cost Calculator 2026'
+meta_description: 'Convert Seedance 2.0 official pricing from 46 CNY per million tokens into cost per second, 5s, 15s, 30s, and 60s video generation budgets.'
+meta_keywords: 'seedance 2.0 pricing, seedance pricing, seedance api cost, seedance cost per second, bytedance video ai pricing'
+id: 3751052
+date: '2026-05-25T16:11:29Z'
 ---
 
 # Seedance 2.0 Pricing: From Million Tokens to Cost per Second

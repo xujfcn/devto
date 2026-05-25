@@ -1,14 +1,16 @@
 ---
-title: "Seedance 2.0 计费详解：46元/百万Token换算成每秒多少钱"
-slug: "seedance-2-0-pricing-token-to-second-cost-2026-zh"
-summary: "Seedance 2.0 官方按百万 Token 计费。本文把 46 元/百万 Token 换算成每秒、每 5 秒、15 秒、30 秒和 60 秒视频成本。"
-tags: ai, video, api, pricing
+title: Seedance 2.0 计费详解：46元/百万Token换算成每秒多少钱
+slug: seedance-2-0-pricing-token-to-second-cost-2026-zh
+summary: Seedance 2.0 官方按百万 Token 计费。本文把 46 元/百万 Token 换算成每秒、每 5 秒、15 秒、30 秒和 60 秒视频成本。
+tags: 'ai, video, api, pricing'
 published: true
 language: zh
-cover_image_url: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/seedance-2-0-pricing-token-to-second-cost-2026.webp
-meta_title: "Seedance 2.0 计费：百万Token换算每秒成本 2026"
-meta_description: "Seedance 2.0 官方 46 元/百万 Token 到底等于每秒多少钱？本文给出纯生成、视频编辑和不同时长视频的完整换算表。"
-meta_keywords: Seedance 2.0 计费, Seedance 价格, Seedance API 成本, AI视频每秒多少钱, 字节视频模型计费
+cover_image_url: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/seedance-2-0-pricing-token-to-second-cost-2026.webp'
+meta_title: Seedance 2.0 计费：百万Token换算每秒成本 2026
+meta_description: Seedance 2.0 官方 46 元/百万 Token 到底等于每秒多少钱？本文给出纯生成、视频编辑和不同时长视频的完整换算表。
+meta_keywords: 'Seedance 2.0 计费, Seedance 价格, Seedance API 成本, AI视频每秒多少钱, 字节视频模型计费'
+id: 3751050
+date: '2026-05-25T16:10:59Z'
 ---
 
 # Seedance 2.0 计费详解：从百万 Token 换算到每秒成本

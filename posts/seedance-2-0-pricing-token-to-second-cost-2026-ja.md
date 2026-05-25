@@ -1,14 +1,16 @@
 ---
-title: "Seedance 2.0料金解説：100万Tokenあたり46元を1秒あたりコストに換算"
-slug: "seedance-2-0-pricing-token-to-second-cost-2026-ja"
-summary: "Seedance 2.0の公式Token課金を、1秒・5秒・15秒・30秒・60秒あたりの動画生成コストに換算します。"
-tags: ai, video, api, pricing
+title: Seedance 2.0料金解説：100万Tokenあたり46元を1秒あたりコストに換算
+slug: seedance-2-0-pricing-token-to-second-cost-2026-ja
+summary: Seedance 2.0の公式Token課金を、1秒・5秒・15秒・30秒・60秒あたりの動画生成コストに換算します。
+tags: 'ai, video, api, pricing'
 published: true
 language: ja
-cover_image_url: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/seedance-2-0-pricing-token-to-second-cost-2026.webp
-meta_title: "Seedance 2.0 料金：Token課金を秒単価に換算 2026"
-meta_description: "Seedance 2.0の46元/100万Tokenは1秒いくらなのか。純生成・動画編集・各動画尺のコストを計算します。"
-meta_keywords: Seedance 2.0 料金, Seedance pricing, Seedance API cost, AI動画 料金, ByteDance video AI
+cover_image_url: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/seedance-2-0-pricing-token-to-second-cost-2026.webp'
+meta_title: Seedance 2.0 料金：Token課金を秒単価に換算 2026
+meta_description: Seedance 2.0の46元/100万Tokenは1秒いくらなのか。純生成・動画編集・各動画尺のコストを計算します。
+meta_keywords: 'Seedance 2.0 料金, Seedance pricing, Seedance API cost, AI動画 料金, ByteDance video AI'
+id: 3751049
+date: '2026-05-25T16:10:58Z'
 ---
 
 # Seedance 2.0料金：100万Token課金を1秒あたりコストに換算する
