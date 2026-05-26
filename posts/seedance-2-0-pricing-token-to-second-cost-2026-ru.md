@@ -1,14 +1,16 @@
 ---
-title: "Цены Seedance 2.0: как перевести 46 юаней за миллион токенов в стоимость за секунду"
-slug: "seedance-2-0-pricing-token-to-second-cost-2026-ru"
-summary: "Seedance 2.0 тарифицируется по токенам. В статье переводим 46 CNY за миллион токенов в цену за секунду и стоимость роликов 5, 15, 30 и 60 секунд."
-tags: ai, video, api, pricing
+title: 'Цены Seedance 2.0: как перевести 46 юаней за миллион токенов в стоимость за секунду'
+slug: seedance-2-0-pricing-token-to-second-cost-2026-ru
+summary: 'Seedance 2.0 тарифицируется по токенам. В статье переводим 46 CNY за миллион токенов в цену за секунду и стоимость роликов 5, 15, 30 и 60 секунд.'
+tags: 'ai, video, api, pricing'
 published: true
 language: ru
-cover_image_url: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/seedance-2-0-pricing-token-to-second-cost-2026.webp
-meta_title: "Seedance 2.0 Pricing: стоимость за секунду из Token pricing"
-meta_description: "Сколько стоит Seedance 2.0 за секунду? Расчет 46 CNY за миллион токенов для генерации видео и режима редактирования."
-meta_keywords: Seedance 2.0 pricing, Seedance цена, Seedance API cost, ByteDance video AI pricing, AI video cost per second
+cover_image_url: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/seedance-2-0-pricing-token-to-second-cost-2026.webp'
+meta_title: 'Seedance 2.0 Pricing: стоимость за секунду из Token pricing'
+meta_description: Сколько стоит Seedance 2.0 за секунду? Расчет 46 CNY за миллион токенов для генерации видео и режима редактирования.
+meta_keywords: 'Seedance 2.0 pricing, Seedance цена, Seedance API cost, ByteDance video AI pricing, AI video cost per second'
+id: 3753258
+date: '2026-05-26T02:34:29Z'
 ---
 
 # Цены Seedance 2.0: из миллиона токенов в стоимость за секунду
