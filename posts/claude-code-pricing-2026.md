@@ -3,8 +3,10 @@ title: 'Claude Code Pricing 2026: Pro vs Max vs Team vs API Costs'
 published: true
 description: 'Claude Code pricing guide with live Crazyrouter API tests: subscription vs API routing, Pro vs Max vs Team, and cost per successful coding task.'
 tags: 'ai, api, programming, devtools'
-cover_image: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/claude-code-pricing-2026.webp
+cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/claude-code-pricing-2026.webp'
 canonical_url: 'https://crazyrouter.com/blog/claude-code-pricing-2026?utm_source=devto&utm_medium=article&utm_campaign=claude_code_pricing_2026'
+id: 3758355
+date: '2026-05-26T16:59:26Z'
 ---
 
 > Based on live tests through `https://cn.crazyrouter.com/v1`. We tested coding tasks across Claude, DeepSeek, and Gemini-style models to understand when Claude Code subscription pricing is enough, and when API routing becomes the better cost-control layer.

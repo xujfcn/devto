@@ -3,8 +3,10 @@ title: 'Claude Jupiter v1-p vs Claude Opus 4.7 vs Sonnet 4.6: Live API Test'
 published: true
 description: 'Live API benchmark through Crazyrouter comparing Claude Jupiter v1-p, Opus 4.7, Sonnet 4.6, and Opus 4.6 for coding workflows.'
 tags: 'ai, api, benchmark, devtools'
-cover_image: https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/claude-jupiter-opus-sonnet-comparison-2026.webp
+cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/claude-jupiter-opus-sonnet-comparison-2026.webp'
 canonical_url: 'https://crazyrouter.com/blog/claude-jupiter-opus-sonnet-comparison-2026?utm_source=devto&utm_medium=article&utm_campaign=claude_new_models_comparison_2026'
+id: 3758356
+date: '2026-05-26T16:59:56Z'
 ---
 
 > Based on live API calls through `https://cn.crazyrouter.com/v1` on 2026-05-26. We tested `claude-jupiter-v1-p`, `claude-opus-4-7`, `claude-sonnet-4-6`, and `claude-opus-4-6` with the same coding and structured-output tasks.

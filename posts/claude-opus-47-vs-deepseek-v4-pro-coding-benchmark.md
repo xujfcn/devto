@@ -1,9 +1,11 @@
 ---
-title: "Claude Opus 4.7 vs DeepSeek V4 Pro: DeepSeek Is Strong, But Claude Still Wins for Coding"
+title: 'Claude Opus 4.7 vs DeepSeek V4 Pro: DeepSeek Is Strong, But Claude Still Wins for Coding'
 published: true
-description: "Real API compatibility and coding benchmark through Crazyrouter's OpenAI-compatible endpoint."
-tags: ai, api, claude, deepseek
-canonical_url: https://crazyrouter.com/blog/claude-opus-4-7-vs-deepseek-v4-pro-coding-benchmark
+description: Real API compatibility and coding benchmark through Crazyrouter's OpenAI-compatible endpoint.
+tags: 'ai, api, claude, deepseek'
+canonical_url: 'https://crazyrouter.com/blog/claude-opus-4-7-vs-deepseek-v4-pro-coding-benchmark'
+id: 3758354
+date: '2026-05-26T16:59:25Z'
 ---
 
 # Claude Opus 4.7 vs DeepSeek V4 Pro: DeepSeek Is Strong, But Claude Still Wins for Coding
