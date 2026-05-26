@@ -83,3 +83,5 @@ Published pricing is useful for budgeting, but production access can depend on a
 Seedance 2.0 pure generation is roughly **0.95 CNY per second**, while video editing mode is roughly **0.58 CNY per second**, based on the public 15-second token reference. For product pricing, use cost per successful usable video, not only token cost.
 
 If you want one API layer for video, image, chat, and other AI models, try [Crazyrouter](https://crazyrouter.com?utm_source=crazyrouter_blog&utm_medium=article&utm_campaign=seedance_pricing_2026).
+
+<!-- retry-russian-publish 2026-05-26T02:34:18.586954Z -->
