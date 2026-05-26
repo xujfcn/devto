@@ -13,14 +13,14 @@ canonical_url: 'https://crazyrouter.com/blog/claude-jupiter-opus-sonnet-comparis
 
 ## Quick answer
 
-`claude-jupiter-v1-p` is visible in the Crazyrouter `/v1/models` list, but in our live Chat Completions test it returned `400 invalid_request` for every task. That makes it interesting to watch, but not production-ready in this API path yet.
+`claude-jupiter-v1-p` is visible in the Crazyrouter `/v1/models` list and the core calling paths are now usable in our retest: OpenAI Chat Completions, OpenAI streaming, OpenAI tools/function calling, Claude native Messages, Claude native streaming, `count_tokens`, native tools, and tool_result round trips all returned 200. One caveat: some requests failed when we added non-essential parameters such as `temperature`, so production routers should still health-check the exact payload shape they plan to use.
 
 Among the working Claude models:
 
 - **Claude Opus 4.7** is the safest premium default for complex coding and agentic workflows.
 - **Claude Sonnet 4.6** is the best daily-driver option when you want strong coding output with lower latency and better cost discipline.
 - **Claude Opus 4.6** remains a stable baseline, but in this run it was slower on structured JSON than Opus 4.7 and Sonnet 4.6.
-- **Claude Jupiter v1-p** should be treated as a watchlist / pre-release model ID until it returns successful content through `/chat/completions`.
+- **Claude Jupiter v1-p** is now usable on the core Crazyrouter calling chain, but should be routed with payload-level health checks because parameter compatibility can still matter.
 
 The practical production rule is simple:
 
@@ -29,7 +29,7 @@ Health-check every model before routing traffic.
 Use Sonnet 4.6 for daily coding.
 Use Opus 4.7 for hard coding and high-risk agent tasks.
 Keep Opus 4.6 as a baseline fallback.
-Do not use Jupiter v1-p in production until it returns 200 + usable content.
+Use Jupiter v1-p only after health-checking your exact endpoint, stream/tool mode, and payload parameters.
 ```
 
 ![Live Claude model test summary table](https://raw.githubusercontent.com/xujfcn/images/main/blog/posts/claude-jupiter-opus-sonnet-comparison-2026-01.webp)
@@ -44,9 +44,9 @@ The current pattern is clear:
 - Official and semi-official pages emphasize Opus 4.7 as a stronger coding and agentic model compared with Opus 4.6.
 - Many benchmark pages repeat headline benchmark claims, but fewer pages show real API behavior through an OpenAI-compatible gateway.
 
-That gap matters. A model can appear in a model list and still fail on a production endpoint. For developers, the first question is not “is the model exciting?” It is:
+That gap matters. A model can appear in a model list before every payload shape is production-safe. For developers, the first question is not “is the model exciting?” It is:
 
-**Can I call it successfully, get usable content, and route production traffic to it?**
+**Can I call it successfully across the exact endpoints, streaming modes, tools, and payload parameters my app uses?**
 
 That is what this article tests.
 
@@ -74,7 +74,7 @@ claude-sonnet-4-6
 claude-opus-4-6
 ```
 
-Then we ran the same four tasks against each model:
+We first ran the same four coding tasks against each model. After Jeff confirmed the core Jupiter route had been updated, we also ran a dedicated Jupiter endpoint compatibility retest.
 
 1. **Retry patch** — fix a Python retry helper with correct retry semantics.
 2. **JSON schema** — return a valid structured JSON object describing routing role, strengths, risks, and recommended use cases.
@@ -85,7 +85,7 @@ Then we ran the same four tasks against each model:
 
 | Model | Endpoint status | Usable outputs | Average latency | Result |
 |---|---:|---:|---:|---|
-| `claude-jupiter-v1-p` | 400 | 0 / 4 | 0.68s | Visible in model list, but failed all Chat Completions calls |
+| `claude-jupiter-v1-p` | 200 on core routes | Core chain passed; coding prompts passed without extra params | 1.65s non-stream chat / 2.02s tool call | Supported on core endpoints; health-check exact payloads |
 | `claude-opus-4-7` | 200 | 4 / 4 | 5.48s | Best premium default for hard coding |
 | `claude-sonnet-4-6` | 200 | 4 / 4 | 5.91s | Strong daily coding model |
 | `claude-opus-4-6` | 200 | 4 / 4 | 8.81s | Stable baseline, slower in this run |
@@ -100,9 +100,9 @@ The raw result file is saved internally as:
 
 ## What happened with Claude Jupiter v1-p?
 
-`claude-jupiter-v1-p` was the most interesting result because it was visible but not callable in our test.
+`claude-jupiter-v1-p` was the most interesting result because it changed from visible-but-failing in the first coding run to usable across the core calling chain in the retest.
 
-Every request returned HTTP 400 with the same error shape:
+In the first run, the coding payloads returned HTTP 400. After the route update, the core endpoint retest passed:
 
 ```json
 {
@@ -115,16 +115,41 @@ Every request returned HTTP 400 with the same error shape:
 }
 ```
 
-That means we should not describe Jupiter as a working production model yet, at least not through this Chat Completions path at the time of testing.
+That means the correct conclusion is no longer 'Jupiter is unavailable.' The better conclusion is: Jupiter is supported on the core chain, but production apps should still run exact-payload health checks.
 
-The correct interpretation is cautious:
+The retest passed these routes:
 
-- The model ID exists in the model list.
-- The endpoint rejects normal chat completion requests.
-- It may be gated, pre-release, misconfigured, or require different parameters.
-- It should not be used in production routing until a health check returns 200 and non-empty content.
+- `/v1/chat/completions` non-streaming: 200
+- `/v1/chat/completions` streaming SSE: 200
+- OpenAI tools/function calling: 200, returned `tool_calls`
+- `/v1/messages` Claude native non-streaming: 200
+- `/v1/messages` Claude native streaming SSE: 200
+- `/v1/messages?beta=true`: 200
+- `/v1/messages/count_tokens`: 200
+- Claude native tools request: 200
+- Claude `tool_result` round trip: 200
 
-For model routers and coding agents, this is an important lesson: **model discovery is not enough. You need live request health checks.**
+For model routers and coding agents, the lesson is still important: **model discovery is not enough. You need live request health checks on the exact route you plan to use.**
+
+
+## Jupiter endpoint retest: core route now passes
+
+After the first run, Jeff confirmed that the core `claude-jupiter-v1-p` calling chain had been updated. We retested the model through Crazyrouter and confirmed the following:
+
+| Route | Result | Notes |
+|---|---:|---|
+| `/v1/models` | 200 | `claude-jupiter-v1-p` visible |
+| `/v1/chat/completions` non-streaming | 200 | returned `JUPITER_OK` |
+| `/v1/chat/completions` streaming SSE | 200 | streamed chunks successfully |
+| OpenAI tools/function calling | 200 | returned `tool_calls` |
+| `/v1/messages` Claude native | 200 | returned text block |
+| `/v1/messages` Claude native streaming | 200 | streamed events successfully |
+| `/v1/messages?beta=true` | 200 | returned text block |
+| `/v1/messages/count_tokens` | 200 | returned token count |
+| Claude native tools | 200 | returned `tool_use` |
+| Claude `tool_result` round trip | 200 | completed final assistant response |
+
+We also confirmed simple coding prompts work when sent with the minimal required payload. The previous 400s appear tied to payload compatibility rather than the model being unavailable.
 
 ## Claude Opus 4.7: best premium default
 
@@ -205,7 +230,7 @@ A better policy is:
 | Complex bug fix | Claude Opus 4.7 | better premium default |
 | High-risk agent step | Claude Opus 4.7 | success matters more than token cost |
 | Baseline fallback | Claude Opus 4.6 | stable backup path |
-| Experimental testing | Claude Jupiter v1-p | watchlist only until 200 + content |
+| New Claude route testing | Claude Jupiter v1-p | core route supported; health-check exact payloads |
 
 ![Recommended Claude model routing policy through Crazyrouter](https://raw.githubusercontent.com/xujfcn/images/main/blog/posts/claude-jupiter-opus-sonnet-comparison-2026-03.webp)
 
@@ -255,7 +280,7 @@ That lets you build a real routing layer:
 Here is the practical conclusion from this live test:
 
 ```text
-Claude Jupiter v1-p: visible but not usable in this Chat Completions test
+Claude Jupiter v1-p: core Crazyrouter calling chain is usable; exact payload health checks still required
 Claude Opus 4.7: best premium default for hard coding and agents
 Claude Sonnet 4.6: best daily-driver Claude model
 Claude Opus 4.6: stable baseline fallback
@@ -274,7 +299,7 @@ That is how you safely adopt new Claude models without breaking your coding agen
 
 ### Is claude-jupiter-v1-p available?
 
-It appeared in the `/v1/models` list during our test, but every Chat Completions request returned `400 invalid_request`. Treat it as visible but not production-usable until live requests succeed.
+Yes. In the latest retest, it appeared in `/v1/models` and passed the core Crazyrouter calling chain: OpenAI chat, streaming, tools/function calling, Claude native Messages, native streaming, beta Messages, count_tokens, native tools, and tool_result round trip. Still health-check the exact payload shape your app will use.
 
 ### Is Claude Opus 4.7 better than Opus 4.6?
 
@@ -286,7 +311,7 @@ Yes. Sonnet 4.6 completed all tasks and was especially fast on patch and diff ta
 
 ### Which Claude model should coding agents use?
 
-Use Sonnet 4.6 for routine tasks, Opus 4.7 for difficult or high-risk steps, and keep Opus 4.6 as a fallback. Do not route to Jupiter until it passes health checks.
+Use Sonnet 4.6 for routine tasks, Opus 4.7 for difficult or high-risk steps, and keep Opus 4.6 as a fallback. Route to Jupiter only after your exact payload passes health checks.
 
 ### Why use Crazyrouter for Claude model testing?
 
