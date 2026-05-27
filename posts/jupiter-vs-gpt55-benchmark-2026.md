@@ -5,6 +5,8 @@ description: 'We tested claude-jupiter-v1-p and gpt-5.5 through https://cn.crazy
 tags: 'ai, api, benchmark, devtools'
 cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/jupiter-vs-gpt55-benchmark-2026.webp'
 canonical_url: 'https://crazyrouter.com/blog/jupiter-vs-gpt55-benchmark-2026?utm_source=devto&utm_medium=article&utm_campaign=jupiter_vs_gpt55_2026'
+id: 3764828
+date: '2026-05-27T13:55:36Z'
 ---
 
 # Claude Jupiter v1-p vs GPT-5.5: Real API Benchmark for Reasoning and Coding

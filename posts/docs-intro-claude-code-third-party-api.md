@@ -1,9 +1,11 @@
 ---
-title: "How to Configure Claude Code with a Third-Party OpenAI-Compatible API"
+title: How to Configure Claude Code with a Third-Party OpenAI-Compatible API
 published: true
-description: "A practical guide to configuring Claude Code with a third-party gateway, including the important base URL difference between OpenAI-compatible and Anthropic-native clients."
-tags: claude, ai, cli, tutorial
-canonical_url: https://docs.crazyrouter.com/en/integrations/claude-code?utm_source=devto&utm_medium=article&utm_campaign=docs_intro
+description: 'A practical guide to configuring Claude Code with a third-party gateway, including the important base URL difference between OpenAI-compatible and Anthropic-native clients.'
+tags: 'claude, ai, cli, tutorial'
+canonical_url: 'https://docs.crazyrouter.com/en/integrations/claude-code?utm_source=devto&utm_medium=article&utm_campaign=docs_intro'
+id: 3764830
+date: '2026-05-27T13:55:38Z'
 ---
 
 <!-- retry-publish: 2026-05-22T12:06Z -->
