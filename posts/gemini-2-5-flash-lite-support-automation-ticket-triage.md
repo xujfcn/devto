@@ -1,9 +1,11 @@
 ---
-title: 'Gemini 2.5 Flash-Lite for Support Automation and Ticket Triage'
+title: Gemini 2.5 Flash-Lite for Support Automation and Ticket Triage
 published: true
 description: 'How developers can use Gemini 2.5 Flash-Lite to classify support tickets, extract key fields, suggest next actions, and escalate risky cases without turning support into an unreliable chatbo'
 tags: 'ai, api, gemini, llm'
 canonical_url: 'https://crazyrouter.com/blog/gemini-2-5-flash-lite-support-automation-ticket-triage?utm_source=devto&utm_medium=article&utm_campaign=gemini_flash_lite_series'
+id: 3771916
+date: '2026-05-28T14:39:41Z'
 ---
 
 # Gemini 2.5 Flash-Lite for Support Automation and Ticket Triage
