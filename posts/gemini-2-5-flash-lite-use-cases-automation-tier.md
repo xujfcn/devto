@@ -3,7 +3,6 @@ title: 'Gemini 2.5 Flash-Lite Use Cases: The Practical Automation Tier for Devel
 published: true
 description: 'A practical guide to where Gemini 2.5 Flash-Lite fits: high-volume classification, extraction, routing, enrichment, and other automation jobs where latency and unit economics matter more tha'
 tags: 'ai, api, gemini, llm'
-cover_image: 'https://crazyrouter.com/og/gemini-2-5-flash-lite-automation-tier.png'
 canonical_url: 'https://crazyrouter.com/blog/gemini-2-5-flash-lite-use-cases-automation-tier?utm_source=devto&utm_medium=article&utm_campaign=gemini_flash_lite_series'
 ---
 

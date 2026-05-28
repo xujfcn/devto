@@ -3,7 +3,6 @@ title: 'Gemini 2.5 Flash-Lite for RAG, Agent Routing, and Cost per Successful Ta
 published: true
 description: 'A developer guide to using Gemini 2.5 Flash-Lite as a routing and evaluation layer in RAG and agent systems, with practical metrics beyond cost per token.'
 tags: 'ai, api, gemini, llm'
-cover_image: 'https://crazyrouter.com/og/gemini-2-5-flash-lite-rag-routing-cost.png'
 canonical_url: 'https://crazyrouter.com/blog/gemini-2-5-flash-lite-rag-agent-routing-cost-per-successful-task?utm_source=devto&utm_medium=article&utm_campaign=gemini_flash_lite_series'
 ---
 
