@@ -5,6 +5,8 @@ description: 'We tested claude-opus-4-8 and claude-opus-4-7 through the Crazyrou
 tags: 'ai, api, llm, claude'
 cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/opus48-vs-47-cover.png'
 canonical_url: 'https://crazyrouter.com/blog/claude-opus-48-vs-47-real-api-benchmark-2026?utm_source=devto&utm_medium=article&utm_campaign=opus48_vs_47'
+id: 3778335
+date: '2026-05-29T12:35:04Z'
 ---
 
 ![Claude Opus 4.8 vs Opus 4.7 benchmark cover](https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/opus48-vs-47-cover.png)

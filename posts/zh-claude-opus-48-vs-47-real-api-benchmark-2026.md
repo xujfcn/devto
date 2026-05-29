@@ -1,10 +1,12 @@
 ---
-title: 'Opus 4.8 vs Opus 4.7 实测：开发者该不该升级？'
+title: Opus 4.8 vs Opus 4.7 实测：开发者该不该升级？
 published: true
-description: '我们通过 Crazyrouter API 对 claude-opus-4-8 和 claude-opus-4-7 做了真实测试，覆盖推理、代码、JSON、长上下文和中日多语言场景。'
+description: 我们通过 Crazyrouter API 对 claude-opus-4-8 和 claude-opus-4-7 做了真实测试，覆盖推理、代码、JSON、长上下文和中日多语言场景。
 tags: 'ai, api, llm, claude'
 cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/opus48-vs-47-cover.png'
 canonical_url: 'https://crazyrouter.com/blog/zh-claude-opus-48-vs-47-real-api-benchmark-2026?utm_source=devto&utm_medium=article&utm_campaign=opus48_vs_47'
+id: 3778339
+date: '2026-05-29T12:35:36Z'
 ---
 
 ![Opus 4.8 vs Opus 4.7 实测](https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/opus48-vs-47-cover.png)
