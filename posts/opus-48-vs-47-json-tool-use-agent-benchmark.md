@@ -5,6 +5,8 @@ description: 'Our real API test found Opus 4.7 cleaner than Opus 4.8 for strict 
 tags: 'ai, api, llm, claude'
 cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/opus48-vs-47-cover.png'
 canonical_url: 'https://crazyrouter.com/blog/opus-48-vs-47-json-tool-use-agent-benchmark?utm_source=devto&utm_medium=article&utm_campaign=opus48_vs_47'
+id: 3801067
+date: '2026-06-02T07:37:17Z'
 ---
 
 ![Opus 4.8 vs 4.7 agent benchmark](https://raw.githubusercontent.com/xujfcn/images/main/blog/posts/opus48-vs-47-latency-chart.png)
