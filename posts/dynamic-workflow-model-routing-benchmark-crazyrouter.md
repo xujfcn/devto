@@ -5,6 +5,8 @@ description: 'We ran the same four-step AI coding workflow through three routing
 tags: 'ai, api, claude, agents'
 cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/claude-opus-46-47-48-benchmark-cover.png'
 canonical_url: 'https://crazyrouter.com/blog/dynamic-workflow-model-routing-benchmark-crazyrouter?utm_source=devto&utm_medium=article&utm_campaign=dynamic_workflow_routing'
+id: 3814906
+date: '2026-06-03T23:59:43Z'
 ---
 
 # Same Agent Workflow, Three Model Routes: A Real Crazyrouter Benchmark

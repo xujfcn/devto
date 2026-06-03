@@ -5,6 +5,8 @@ description: 'Claude Code, Codex, Cursor, and modern AI coding tools now expose 
 tags: 'ai, coding, claude, agents'
 cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/claude-opus-46-47-48-benchmark-cover.png'
 canonical_url: 'https://crazyrouter.com/blog/claude-code-skills-vs-subagents-vs-dynamic-workflows?utm_source=devto&utm_medium=article&utm_campaign=workflow_primitives'
+id: 3814902
+date: '2026-06-03T23:59:15Z'
 ---
 
 # Claude Code Skills vs Subagents vs Dynamic Workflows: Which One Should You Use?
