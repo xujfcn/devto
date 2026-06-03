@@ -5,6 +5,8 @@ description: 'A practical guide to Anthropic API billing in 2026: Claude input/o
 tags: 'ai, api, webdev, programming'
 cover_image: null
 canonical_url: 'https://crazyrouter.com/blog/anthropic-api-billing-claude-cost-guide-2026'
+id: 3807777
+date: '2026-06-03T05:44:34Z'
 ---
 
 # Anthropic API Billing Explained: How Claude API Charges Work in 2026

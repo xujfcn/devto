@@ -5,6 +5,8 @@ description: 'We ran live Crazyrouter API tests on Claude Opus 4.6, 4.7, and 4.8
 tags: 'ai, api, claude, llm'
 cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/claude-opus-46-47-48-benchmark-cover.png'
 canonical_url: 'https://crazyrouter.com/blog/claude-opus-46-vs-47-vs-48-real-api-tests-crazyrouter?utm_source=devto&utm_medium=article&utm_campaign=claude_opus_46_47_48'
+id: 3807778
+date: '2026-06-03T05:44:38Z'
 ---
 
 # Claude Opus 4.6 vs 4.7 vs 4.8: 12 Real API Tests Through Crazyrouter
