@@ -2,9 +2,11 @@
 title: 'OpenAI-Compatible API Base URL Explained: How to Configure Any AI Tool'
 published: true
 description: 'Learn what an OpenAI-compatible API Base URL is, how to configure it in Python, Node.js, curl, Cursor, LiteLLM, FastGPT, Codex-style tools, and how to avoid common mistakes like missing /v1 '
-tags: ai, api, gateway, tutorial
+tags: 'ai, api, gateway, tutorial'
 cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/claude-opus-46-47-48-benchmark-cover.png'
 canonical_url: 'https://crazyrouter.com/blog/openai-compatible-api-base-url-explained?utm_source=devto&utm_medium=article&utm_campaign=base_url_guide'
+id: 3816792
+date: '2026-06-04T06:27:24Z'
 ---
 
 # OpenAI-Compatible API Base URL Explained: How to Configure Any AI Tool
