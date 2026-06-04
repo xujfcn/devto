@@ -2,9 +2,11 @@
 title: 'Crazyrouter Codex CLI: Use Codex with One API Key and an OpenAI-Compatible Gateway'
 published: true
 description: 'Set up OpenAI Codex CLI through Crazyrouter with one command on Windows, macOS, and Linux. Use an OpenAI-compatible base URL, one API key, and model routing for GPT, Claude, Gemini, DeepSeek'
-tags: ai, webdev, tutorial, tools
+tags: 'ai, webdev, tutorial, tools'
 cover_image: 'https://lsky.zhongzhuan.chat/i/2025/12/29/69523b0cd9f0d.png'
 canonical_url: 'https://crazyrouter.com/blog/crazyrouter-codex-cli-one-command-setup?utm_source=devto&utm_medium=article&utm_campaign=codex_cli'
+id: 3821268
+date: '2026-06-04T16:57:39Z'
 ---
 
 # Crazyrouter Codex CLI: Use Codex with One API Key and an OpenAI-Compatible Gateway
