@@ -2,9 +2,11 @@
 title: 'How to Fix AI API 500, 502, and 524 Errors'
 published: true
 description: 'A practical troubleshooting guide for AI API 500, 502, and 524 errors. Learn what each error usually means, how to debug timeouts and upstream failures, and how to build retry, fallback, and'
-tags: ai, api, tutorial, webdev
+tags: 'ai, api, tutorial, webdev'
 cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/claude-opus-46-47-48-benchmark-cover.png'
 canonical_url: 'https://crazyrouter.com/blog/how-to-fix-ai-api-500-502-524-errors?utm_source=devto&utm_medium=article&utm_campaign=api_error_guide'
+id: 3820132
+date: '2026-06-04T13:53:51Z'
 ---
 
 # How to Fix AI API 500, 502, and 524 Errors
