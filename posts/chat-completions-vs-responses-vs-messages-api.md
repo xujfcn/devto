@@ -2,9 +2,11 @@
 title: '/v1/chat/completions vs /v1/responses vs /v1/messages: Which AI API Endpoint Should You Use?'
 published: true
 description: 'A practical guide to choosing the correct AI API endpoint. Learn the differences between OpenAI Chat Completions, OpenAI Responses, and Anthropic Messages to avoid model unavailable errors c'
-tags: ai, api, gateway, tutorial
+tags: 'ai, api, gateway, tutorial'
 cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/claude-opus-46-47-48-benchmark-cover.png'
 canonical_url: 'https://crazyrouter.com/blog/chat-completions-vs-responses-vs-messages-api?utm_source=devto&utm_medium=article&utm_campaign=api_endpoints'
+id: 3822964
+date: '2026-06-04T23:57:09Z'
 ---
 
 # /v1/chat/completions vs /v1/responses vs /v1/messages: Which AI API Endpoint Should You Use?
