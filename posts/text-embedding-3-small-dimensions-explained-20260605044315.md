@@ -2,9 +2,11 @@
 title: 'text-embedding-3-small Dimensions Explained: 1536 vs 1024 vs 512'
 published: true
 description: 'A practical guide to text-embedding-3-small dimensions: default 1536 vectors, the dimensions parameter, storage tradeoffs, and API examples.'
-tags: ai, api, embeddings, tutorial
+tags: 'ai, api, embeddings, tutorial'
 cover_image: 'https://filesystem.site/cdn/20260605/9d58f0b5e53f10e4e31635c36e5c5e.png'
 canonical_url: 'https://crazyrouter.com/blog/text-embedding-3-small-dimensions-explained-20260605044315?utm_source=devto&utm_medium=article&utm_campaign=embedding_dimensions'
+id: 3835383
+date: '2026-06-06T14:13:22Z'
 ---
 
 # text-embedding-3-small Dimensions Explained: 1536 vs 1024 vs 512

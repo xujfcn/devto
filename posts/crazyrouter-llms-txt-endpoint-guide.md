@@ -1,9 +1,11 @@
 ---
-title: "Stop AI Agents from Guessing API Routes: Crazyrouter llms.txt Endpoint Guide"
+title: 'Stop AI Agents from Guessing API Routes: Crazyrouter llms.txt Endpoint Guide'
 published: true
-description: "How Crazyrouter llms.txt helps AI coding agents choose the correct endpoint for OpenAI, Responses, Claude, Gemini, images, videos, and audio."
-tags: ai, api, agents, docs
-canonical_url: https://docs.crazyrouter.com/llms-guide?utm_source=devto&utm_medium=article&utm_campaign=llms_txt_docs
+description: 'How Crazyrouter llms.txt helps AI coding agents choose the correct endpoint for OpenAI, Responses, Claude, Gemini, images, videos, and audio.'
+tags: 'ai, api, agents, docs'
+canonical_url: 'https://docs.crazyrouter.com/llms-guide?utm_source=devto&utm_medium=article&utm_campaign=llms_txt_docs'
+id: 3835381
+date: '2026-06-06T14:12:53Z'
 ---
 
 # Stop AI Agents from Guessing API Routes: Crazyrouter `llms.txt` Endpoint Guide
