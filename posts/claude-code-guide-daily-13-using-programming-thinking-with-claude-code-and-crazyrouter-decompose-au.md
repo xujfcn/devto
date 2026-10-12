@@ -1,5 +1,5 @@
 ---
-title: Using Programming Thinking with Claude Code and Crazyrouter: Decompose, Automate, Iterate
+title: "Using Programming Thinking with Claude Code and Crazyrouter: Decompose, Automate, Iterate"
 published: true
 description: Daily Claude Code guide rewrite covering practical setup, API routing, and AI coding workflows.
 tags: ai, claude, coding, api

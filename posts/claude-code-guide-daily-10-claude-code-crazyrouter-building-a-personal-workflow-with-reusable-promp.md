@@ -1,5 +1,5 @@
 ---
-title: Claude Code + Crazyrouter: Building a Personal Workflow with Reusable Prompt Templates
+title: "Claude Code + Crazyrouter: Building a Personal Workflow with Reusable Prompt Templates"
 published: true
 description: Daily Claude Code guide rewrite covering practical setup, API routing, and AI coding workflows.
 tags: ai, claude, coding, api

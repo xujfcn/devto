@@ -1,5 +1,5 @@
 ---
-title: Claude Code with Crazyrouter: First Conversations, File Operations, and Text Generation
+title: "Claude Code with Crazyrouter: First Conversations, File Operations, and Text Generation"
 published: true
 description: Daily Claude Code guide rewrite covering practical setup, API routing, and AI coding workflows.
 tags: ai, claude, coding, api

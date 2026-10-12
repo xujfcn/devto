@@ -1,5 +1,5 @@
 ---
-title: Claude Code with Crazyrouter: Practical Setup and Workflow Patterns
+title: "Claude Code with Crazyrouter: Practical Setup and Workflow Patterns"
 published: true
 description: Daily Claude Code guide rewrite covering practical setup, API routing, and AI coding workflows.
 tags: ai, claude, coding, api

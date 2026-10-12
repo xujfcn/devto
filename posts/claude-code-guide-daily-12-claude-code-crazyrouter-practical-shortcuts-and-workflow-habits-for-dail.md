@@ -1,5 +1,5 @@
 ---
-title: Claude Code + Crazyrouter: Practical Shortcuts and Workflow Habits for Daily Development
+title: "Claude Code + Crazyrouter: Practical Shortcuts and Workflow Habits for Daily Development"
 published: true
 description: Daily Claude Code guide rewrite covering practical setup, API routing, and AI coding workflows.
 tags: ai, claude, coding, api

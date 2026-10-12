@@ -1,5 +1,5 @@
 ---
-title: Claude Code with Crazyrouter: Quick Start, Base URL Setup, and Daily Workflow
+title: "Claude Code with Crazyrouter: Quick Start, Base URL Setup, and Daily Workflow"
 published: true
 description: Daily Claude Code guide rewrite covering practical setup, API routing, and AI coding workflows.
 tags: ai, claude, coding, api

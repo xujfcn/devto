@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Claude Code via Crazyrouter: Trae, Z Code, and Base URL Setup
+title: "Getting Started with Claude Code via Crazyrouter: Trae, Z Code, and Base URL Setup"
 published: true
 description: Daily Claude Code guide rewrite covering practical setup, API routing, and AI coding workflows.
 tags: ai, claude, coding, api

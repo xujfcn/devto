@@ -1,5 +1,5 @@
 ---
-title: Claude Code Prompt Optimization with Crazyrouter: Practical Patterns for Clearer Requests
+title: "Claude Code Prompt Optimization with Crazyrouter: Practical Patterns for Clearer Requests"
 published: true
 description: Daily Claude Code guide rewrite covering practical setup, API routing, and AI coding workflows.
 tags: ai, claude, coding, api

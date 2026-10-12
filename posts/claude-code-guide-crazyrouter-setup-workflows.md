@@ -1,5 +1,5 @@
 ---
-title: Claude Code Guide: Practical Setup, API Routing, and AI Coding Workflows
+title: "Claude Code Guide: Practical Setup, API Routing, and AI Coding Workflows"
 published: true
 description: A practical Claude Code guide repo covering setup, Crazyrouter routing, Base URL rules, troubleshooting, and AI coding workflows.
 tags: ai, claude, coding, api

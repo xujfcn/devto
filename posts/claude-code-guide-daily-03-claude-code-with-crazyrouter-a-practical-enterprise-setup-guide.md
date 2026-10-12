@@ -1,5 +1,5 @@
 ---
-title: Claude Code with Crazyrouter: A Practical Enterprise Setup Guide
+title: "Claude Code with Crazyrouter: A Practical Enterprise Setup Guide"
 published: true
 description: Daily Claude Code guide rewrite covering practical setup, API routing, and AI coding workflows.
 tags: ai, claude, coding, api
