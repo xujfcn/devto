@@ -9,6 +9,8 @@ id: 3506614
 date: '2026-04-15T18:44:46Z'
 ---
 
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
+
 Claude API pahalı mı geliyor? Yalnız değilsiniz.
 
 Claude Opus 4 giriş $15/çıkış $75 (1M token başına), Sonnet 4.6 bile $3/$15. Ayda on binlerce istek gönderiyorsanız fatura hızla şişer.
@@ -19,11 +21,6 @@ Bu yazıda **abonelik olmadan** Claude API'yi en ucuza kullanmanın 5 yolunu anl
 
 ## Claude API 2026 Resmi Fiyatları
 
-| Model | Giriş (1M token) | Çıkış (1M token) | Önbellek | Kullanım |
-|-------|-------------------|-------------------|----------|----------|
-| Claude Opus 4 | $15.00 | $75.00 | $1.50 | Karmaşık analiz |
-| Claude Sonnet 4.6 | $3.00 | $15.00 | $0.30 | En iyi fiyat/performans |
-| Claude Haiku 3.5 | $0.80 | $4.00 | $0.08 | Hızlı, ucuz işler |
 
 ---
 
@@ -31,13 +28,6 @@ Bu yazıda **abonelik olmadan** Claude API'yi en ucuza kullanmanın 5 yolunu anl
 
 En basit tasarruf yöntemi: **AI API gateway** üzerinden erişim. Gateway'ler toplu indirim anlaşmaları yapar ve bu indirimi kullanıcılara yansıtır.
 
-[Crazyrouter](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=claude_api_ucuz_tr) 627+ modeli resmi fiyatın yaklaşık %55'ine sunan bir gateway:
-
-| Model | Anthropic Direkt | Crazyrouter | Tasarruf |
-|-------|-----------------|-------------|----------|
-| Claude Opus 4 | $15/$75 | ~$8.25/$41.25 | %45 |
-| Claude Sonnet 4.6 | $3/$15 | ~$1.65/$8.25 | %45 |
-| Claude Haiku 3.5 | $0.80/$4.00 | ~$0.44/$2.20 | %45 |
 
 ### Kod: Sadece 2 Satır Değişiklik
 
@@ -51,7 +41,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="claude-sonnet-4.6",
+    model="claude-sonnet-4-6",
     messages=[{"role": "user", "content": "Python'da binary search yaz"}]
 )
 print(response.choices[0].message.content)
@@ -86,12 +76,6 @@ messages = [
 
 Her istek için Claude Opus 4 kullanmanıza gerek yok:
 
-| Görev | Önerilen Model | Maliyet (Çıkış 1M) |
-|-------|---------------|---------------------|
-| Basit soru-cevap | Claude Haiku 3.5 | $4.00 |
-| Kodlama | Claude Sonnet 4.6 | $15.00 |
-| Derin analiz | Claude Opus 4 | $75.00 |
-| Basit sınıflandırma | DeepSeek Chat | $0.28 |
 
 Crazyrouter ile aynı API anahtarıyla tüm modellere erişebilirsiniz:
 
@@ -104,7 +88,7 @@ response = client.chat.completions.create(
 
 # Kodlama için Claude Sonnet
 response = client.chat.completions.create(
-    model="claude-sonnet-4.6",
+    model="claude-sonnet-4-6",
     messages=[{"role": "user", "content": "Rust'ta HTTP sunucu yaz"}]
 )
 ```
@@ -127,7 +111,7 @@ Gerçek zamanlı yanıt gerekmiyorsa, Batch API kullanın — 24 saat içinde i�
 
 ```python
 response = client.chat.completions.create(
-    model="claude-sonnet-4.6",
+    model="claude-sonnet-4-6",
     messages=[{"role": "user", "content": "Evet veya Hayır: İstanbul Türkiye'nin en büyük şehri mi?"}],
     max_tokens=10
 )
@@ -141,12 +125,6 @@ response = client.chat.completions.create(
 
 Ayda 100.000 istek (ortalama 500 giriş + 500 çıkış token):
 
-| Yöntem | Claude Sonnet 4.6 Aylık |
-|--------|------------------------|
-| Anthropic direkt | ~$900 |
-| Crazyrouter | ~$495 |
-| + Model seçimi | ~$200-300 |
-| + Önbellek | ~$100-200 |
 
 **Kombinasyon ile direkt fiyatın %80'inden fazla tasarruf mümkün.**
 
@@ -162,4 +140,4 @@ Ayda 100.000 istek (ortalama 500 giriş + 500 çıkış token):
 
 Claude API pahalı — ama doğru kullanırsanız çok daha ucuza gelir.
 
-👉 [Crazyrouter — 627+ modeli en ucuza kullanın](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=claude_api_ucuz_tr)
+👉 [Crazyrouter — modeller ve güncel fiyatlar](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=claude_api_ucuz_tr)

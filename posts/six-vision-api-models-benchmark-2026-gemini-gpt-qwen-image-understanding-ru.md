@@ -7,6 +7,8 @@ cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/g
 canonical_url: 'https://crazyrouter.com/blog/six-vision-api-models-benchmark-2026-gemini-gpt-qwen-image-understanding-ru?utm_source=devto&utm_medium=article&utm_campaign=vision_six_model_benchmark_2026_ru'
 ---
 
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
+
 # Тест 6 Vision API моделей: Gemini 2.5, GPT-4.1 и Qwen3 VL для понимания изображений
 
 Если вы добавляете image understanding в продукт, формулировки вроде «модель поддерживает изображения» недостаточно.
@@ -79,14 +81,6 @@ https://cn.crazyrouter.com/v1
 
 ## Общая таблица результатов
 
-| Модель | HTTP success | Correct recognition | No-image replies | Avg latency | Median latency | Slowest request | Input price / 1M tokens | Output price / 1M tokens | Estimated cost / 10k test-style calls | Позиционирование |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| `qwen3-vl-flash` | 6/6 | 6/6 | 0 | 3.819s | 3.493s | 5.975s | $0.05 | $0.40 | $0.0915 | Лучший low-cost route для bulk recognition |
-| `gpt-4.1-mini` | 6/6 | 6/6 | 0 | 1.491s | 1.292s | 2.189s | $0.26 | $1.04 | $0.5226 | Лучший low-latency route для user-facing функций |
-| `gpt-4.1-nano` | 6/6 | 6/6 | 0 | 2.863s | 2.562s | 4.213s | $0.065 | $0.26 | $0.1666 | Низкобюджетный OpenAI-family route |
-| `qwen3-vl-plus` | 6/6 | 6/6 | 0 | 3.859s | 3.729s | 4.821s | $0.1429 | $1.4286 | $0.3848 | Qwen VL upgrade route с приоритетом качества |
-| `gemini-2.5-flash` | 6/6 | 0/6 | 1 | 4.965s | 4.333s | 9.507s | $0.17 | $0.68 | $0.6168 | image_url path не сработал в этом запуске |
-| `gemini-2.5-flash-lite` | 6/6 | 6/6 | 0 | 2.618s | 2.627s | 4.195s | $0.055 | $0.22 | $0.5466 | Низкобюджетный Gemini lightweight route |
 
 Оценка стоимости 10k calls основана на observed usage в этом простом logo recognition тесте. Это не универсальная цена для всех image workloads. Более крупные изображения, OCR, длинные описания и multi-image prompts могут сильно изменить token usage.
 

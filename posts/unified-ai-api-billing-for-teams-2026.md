@@ -1,13 +1,15 @@
 ---
 title: 'Unified Billing for Claude and GPT: One Invoice, One Dashboard, One API Key'
 published: true
-description: 'Managing multiple AI API accounts is a billing nightmare for teams. Here is how to consolidate Claude, GPT, DeepSeek, and 600+ models under one account with unified usage tracking.'
+description: 'Managing multiple AI API accounts is a billing nightmare for teams. Here is how to consolidate Claude, GPT, DeepSeek, and compatible models under one account with unified usage tracking.'
 tags: 'ai, api, billing, devops'
 canonical_url: 'https://crazyrouter.com/blog/enterprise-ai-api-gateway-selection-guide?utm_source=devto&utm_medium=article&utm_campaign=enterprise'
 cover_image: 'https://media.crazyrouter.com/task-artifacts/2026/04/16/sync-image/20260416040147852845992MIWNXDFl-1.jpeg'
 id: 3509179
 date: '2026-04-16T08:31:07Z'
 ---
+
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
 
 # Unified Billing for Claude and GPT: One Invoice, One Dashboard, One API Key
 
@@ -47,7 +49,7 @@ client = OpenAI(
 )
 
 # Claude
-client.chat.completions.create(model="claude-sonnet-4.6", messages=[...])
+client.chat.completions.create(model="claude-sonnet-4-6", messages=[...])
 
 # GPT
 client.chat.completions.create(model="gpt-5.2", messages=[...])
@@ -62,23 +64,11 @@ Same code structure. Same API key. Same billing dashboard.
 
 ### Per-model breakdown
 
-| Model | Requests | Spend |
-|---|---|---|
-| claude-sonnet-4.6 | 1,200 | $18.50 |
-| gpt-5-mini | 8,500 | $4.20 |
-| gpt-5-nano | 15,000 | $1.80 |
-| deepseek-chat | 3,200 | $2.10 |
-| **Total** | **27,900** | **$26.60** |
 
 ### Per-member breakdown
 
 Create separate API keys for each team member. Usage is automatically isolated:
 
-| Member | Spend | Primary model |
-|---|---|---|
-| Alice | $12.30 | Claude Sonnet |
-| Bob | $8.20 | GPT-5 Mini |
-| Carol | $6.10 | DeepSeek |
 
 ### Usage export
 
@@ -92,13 +82,6 @@ Perfect for expense reports, project accounting, and budget reviews.
 
 ## Cost savings on top of consolidation
 
-Beyond the operational savings, gateway pricing is typically 40-55% below direct provider pricing:
-
-| Model | Direct pricing | Gateway pricing | Savings |
-|---|---|---|---|
-| Claude Sonnet 4.6 | $3/$15 per 1M | ~$1.65/$8.25 | 45% |
-| GPT-5 | $1.25/$10 per 1M | ~$0.69/$5.50 | 45% |
-| GPT-5 Nano | $0.05/$0.40 | ~$0.03/$0.22 | 45% |
 
 Pay-as-you-go. No monthly fee. No minimum spend.
 

@@ -1,5 +1,5 @@
 ---
-title: 'One API Key for 600+ AI Models: How I Simplified My AI Workflow with an Open-Source Agent'
+title: 'One API Key for Compatible AI Models: How I Simplified My AI Workflow with an Open-Source Agent'
 published: true
 description: I was juggling 5 API keys across different AI providers. Here is how I consolidated everything into one key using Hermes Agent and an API gateway.
 tags: 'ai, opensource, productivity, tutorial'
@@ -8,6 +8,8 @@ canonical_url: 'https://crazyrouter.com/blog/hermes-agent-one-api-key-workflow?u
 id: 3604940
 date: '2026-05-03T17:39:08Z'
 ---
+
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
 
 I use AI models every day — Claude for coding, GPT for writing, DeepSeek for reasoning, Gemini for quick lookups. Each one has its strengths, and I want access to all of them.
 
@@ -61,7 +63,7 @@ Hermes Agent
  GPT  Claude Gemini DeepSeek
 ```
 
-I'm using [Crazyrouter](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=hermes-agent) for this. It's an OpenAI-compatible gateway that aggregates 627+ models with pay-as-you-go pricing, no monthly fees.
+I'm using [Crazyrouter](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=hermes-agent) for this. It's an OpenAI-compatible gateway that aggregates compatible models in the current catalogue with pay-as-you-go pricing, no monthly fees.
 
 ## Setup: Under One Minute
 
@@ -93,7 +95,7 @@ Switching models is now a one-liner:
 
 ```bash
 # Coding with Claude
-hermes model claude-sonnet-4-20250514
+hermes model claude-sonnet-4-6
 > refactor this function from callbacks to async/await
 
 # Translation with GPT

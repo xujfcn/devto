@@ -8,6 +8,8 @@ id: 3725345
 date: '2026-05-22T11:53:35Z'
 ---
 
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
+
 AI coding agents are only as useful as the context they can find.
 
 If an agent has the wrong API endpoint, an outdated setup guide, or a random blog post from two years ago, it can confidently generate broken code. That is why more documentation sites are adding AI-readable entry points such as `llms.txt` and `llms-full.txt`.
@@ -231,7 +233,7 @@ https://crazyrouter.com
 If an agent only sees an OpenAI SDK example, it may incorrectly configure Claude Code with:
 
 ```bash
-export ANTHROPIC_BASE_URL=https://crazyrouter.com/v1
+export ANTHROPIC_BASE_URL=https://crazyrouter.com
 ```
 
 But Claude Code should use:

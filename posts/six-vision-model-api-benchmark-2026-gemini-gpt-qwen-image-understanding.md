@@ -7,6 +7,8 @@ cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/g
 canonical_url: 'https://crazyrouter.com/blog/six-vision-model-api-benchmark-2026-gemini-gpt-qwen-image-understanding?utm_source=devto&utm_medium=article&utm_campaign=vision_six_model_benchmark_2026_zh'
 ---
 
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
+
 # 6 个 Vision API 模型实测总览：Gemini 2.5、GPT-4.1、Qwen3 VL 图片理解怎么选？
 
 如果你在做图片理解、截图识别、logo 检测、图片分类、客服截图分析，或者给 agent workflow 接入视觉输入，模型选择不能只看“支持图片”四个字。
@@ -52,15 +54,6 @@ https://cn.crazyrouter.com/v1
 最重要的一点：**HTTP 200 不等于图片理解成功**。本轮 `gemini-2.5-flash` 的请求全部返回成功，但图片识别正确率是 0/6，还出现了“未提供图片”、错识别 CBC logo、飞船等异常输出。
 
 ## 6 个模型总表
-
-| 模型 | HTTP 成功 | 识图正确 | no-image 回复 | 平均延迟 | 中位延迟 | 最慢请求 | 输入价 / 1M tokens | 输出价 / 1M tokens | 10k 次测试式调用估算 | usage/image 信号 | 定位 |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
-| `qwen3-vl-flash` | 6/6 | 6/6 | 0 | 3.819s | 3.493s | 5.975s | $0.05 | $0.4 | $0.0915 | 有 image_tokens 信号 | 低价批量识图首选，适合 logo、图标、简单截图分类 |
-| `gpt-4.1-mini` | 6/6 | 6/6 | 0 | 1.491s | 1.292s | 2.189s | $0.26 | $1.04 | $0.5226 | image_tokens 为 0/缺失，需 smoke test | 低延迟线上交互首选，适合用户实时上传图片 |
-| `gpt-4.1-nano` | 6/6 | 6/6 | 0 | 2.863s | 2.562s | 4.213s | $0.065 | $0.26 | $0.1666 | image_tokens 为 0/缺失，需 smoke test | 低成本 OpenAI 路线，适合轻量视觉标签和简单分类 |
-| `qwen3-vl-plus` | 6/6 | 6/6 | 0 | 3.859s | 3.729s | 4.821s | $0.1429 | $1.4286 | $0.3848 | image_tokens 为 0/缺失，需 smoke test | Qwen 质量优先路线，适合比 flash 更重的视觉理解 |
-| `gemini-2.5-flash` | 6/6 | 0/6 | 1 | 4.965s | 4.333s | 9.507s | $0.17 | $0.68 | $0.6168 | image_tokens 为 0/缺失，需 smoke test | 本轮 image_url 路径异常，不建议作为默认识图路由 |
-| `gemini-2.5-flash-lite` | 6/6 | 6/6 | 0 | 2.618s | 2.627s | 4.195s | $0.055 | $0.22 | $0.5466 | image_tokens 为 0/缺失，需 smoke test | 低价 Gemini 轻量路线，本轮识图 6/6 正确 |
 
 
 ## 按准确率排序

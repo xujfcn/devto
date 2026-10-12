@@ -1,13 +1,15 @@
 ---
 title: How to Access All AI Models with a Single API Key in 2026
 published: true
-description: 'Step-by-step guide to accessing GPT-5, Claude, Gemini, DeepSeek and 600+ AI models through one API key using unified AI API gateways.'
+description: 'Step-by-step guide to accessing GPT-5, Claude, Gemini, DeepSeek and compatible AI models through one API key using unified AI API gateways.'
 tags: 'ai, api, tutorial, programming'
 cover_image: null
 canonical_url: null
 id: 3443997
 date: '2026-04-02T08:03:36Z'
 ---
+
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
 
 You want to use GPT-5 for general tasks, Claude for coding, Gemini for long documents, and DeepSeek for cheap inference. That means four API keys, four billing accounts, four different SDKs, and four sets of rate limits to manage.
 
@@ -62,7 +64,7 @@ gpt_response = client.chat.completions.create(
 )
 
 claude_response = client.chat.completions.create(
-    model="claude-sonnet-4.6",
+    model="claude-sonnet-4-6",
     messages=[{"role": "user", "content": "Review this code..."}]
 )
 
@@ -78,9 +80,9 @@ Same client. Same format. Same API key. Just change the `model` parameter.
 
 ## Step-by-Step Setup
 
-### Option 1: Crazyrouter (627+ Models, Broadest Coverage)
+### Option 1: Crazyrouter (compatible models in the current catalogue, Broadest Coverage)
 
-Crazyrouter provides access to 627+ models from 20+ providers including OpenAI, Anthropic, Google, DeepSeek, ByteDance, Alibaba, and xAI.
+Crazyrouter provides access to compatible models in the current catalogue from 20+ providers including OpenAI, Anthropic, Google, DeepSeek, ByteDance, Alibaba, and xAI.
 
 **Step 1:** Sign up at [crazyrouter.com](https://crazyrouter.com) (you get $0.20 free credit)
 
@@ -96,9 +98,9 @@ client = OpenAI(
     api_key="sk-your-crazyrouter-key"
 )
 
-# Now you can access any of 627+ models
+# Now you can access any of compatible models in the current catalogue
 response = client.chat.completions.create(
-    model="gpt-5",  # or claude-sonnet-4.6, gemini-2.5-pro, deepseek-r1, etc.
+    model="gpt-5",  # or claude-sonnet-4-6, gemini-2.5-pro, deepseek-r1, etc.
     messages=[{"role": "user", "content": "Hello!"}]
 )
 print(response.choices[0].message.content)
@@ -117,7 +119,7 @@ Now any tool that uses the OpenAI SDK (Cursor, Continue, LangChain, etc.) will a
 
 ---
 
-### Option 2: OpenRouter (300+ Models, Free Tier)
+### Option 2: OpenRouter (compatible models in the current catalogue, Free Tier)
 
 OpenRouter is the most popular option with a free tier for select models.
 
@@ -168,7 +170,7 @@ response = completion(
 )
 
 response = completion(
-    model="claude-sonnet-4.6",
+    model="claude-sonnet-4-6",
     messages=[{"role": "user", "content": "Hello!"}],
     api_key="sk-ant-key"
 )
@@ -180,13 +182,6 @@ response = completion(
 
 ## Which Gateway Should You Choose?
 
-| Need | Best Option |
-|------|-------------|
-| Most models (627+) | [Crazyrouter](https://crazyrouter.com) |
-| Free tier / experimentation | OpenRouter |
-| Self-hosted / open-source | LiteLLM |
-| Enterprise observability | Portkey |
-| Multimodal beyond text | AIMLAPI or Eden AI |
 
 ---
 
@@ -223,7 +218,7 @@ curl https://crazyrouter.com/v1/chat/completions \
   -H "Authorization: Bearer sk-your-key" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "claude-sonnet-4.6",
+    "model": "claude-sonnet-4-6",
     "messages": [{"role": "user", "content": "Hello!"}]
   }'
 ```
@@ -250,12 +245,6 @@ const response = await client.chat.completions.create({
 
 Using a gateway doesn't have to cost more. Some gateways actually offer lower prices than going direct:
 
-| Model | Official Price (per 1M tokens) | Crazyrouter | OpenRouter |
-|-------|-------------------------------|-------------|------------|
-| GPT-5 | $1.25 / $10.00 | Below official | ~$1.38 / $11.00 |
-| Claude Sonnet 4.6 | $3.00 / $15.00 | Below official | ~$3.30 / $16.50 |
-| Gemini 2.5 Pro | $1.25 / $10.00 | Below official | ~$1.38 / $11.00 |
-| DeepSeek R1 | $0.55 / $2.19 | Below official | ~$0.60 / $2.41 |
 
 *Prices are approximate and change frequently. Check each platform for current rates.*
 
@@ -284,7 +273,7 @@ Accessing all AI models with a single API key is straightforward in 2026:
 1. Pick a gateway (Crazyrouter for broadest coverage, OpenRouter for free tier, LiteLLM for self-hosting)
 2. Sign up and get your API key
 3. Replace your base URL and API key in your existing code
-4. Access 300-627+ models through one endpoint
+4. Access 300-compatible models in the current catalogue through one endpoint
 
 The migration takes under 5 minutes and eliminates multi-vendor complexity entirely.
 

@@ -9,6 +9,8 @@ id: 3443774
 date: '2026-04-02T07:18:44Z'
 ---
 
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
+
 Managing separate API keys for OpenAI, Anthropic, Google, and DeepSeek is one of the biggest pain points for AI developers in 2026. AI API aggregator platforms solve this by providing a single endpoint and API key to access hundreds of models.
 
 I tested 10 platforms over the past month across three criteria: model coverage, pricing transparency, and developer experience. Here's the ranking.
@@ -32,16 +34,8 @@ An AI API aggregator (also called an AI API gateway or unified AI API) sits betw
 
 **Website:** [crazyrouter.com](https://crazyrouter.com)
 
-Crazyrouter provides access to 627+ models across 102 model families from 20+ providers. It stands out for having the broadest model coverage of any aggregator I tested, including hard-to-find models from ByteDance (Doubao, Seedance), Alibaba (Qwen3), and xAI (Grok).
+Crazyrouter provides access to compatible models in the current catalogue across 102 model families from 20+ providers. It stands out for having the broadest model coverage of any aggregator I tested, including hard-to-find models from ByteDance (Doubao, Seedance), Alibaba (Qwen3), and xAI (Grok).
 
-| Feature | Detail |
-|---------|--------|
-| Models | 627+ across 102 families |
-| API Format | OpenAI, Anthropic, and Gemini compatible |
-| Pricing | Pay-as-you-go, below official rates |
-| Free Credit | $0.20 on signup |
-| Global Nodes | 7 regions (US, Japan, Korea, UK, HK, PH, RU) |
-| Capabilities | Chat, vision, image gen, video gen, music, TTS, STT, embeddings |
 
 **Why it ranks #1:** Broadest model coverage, multi-format API support (not just OpenAI-compatible), and consistently lower pricing than going direct. The 7 global edge nodes also give it the best latency profile for international teams.
 
@@ -64,7 +58,7 @@ response = client.chat.completions.create(
 
 **Website:** openrouter.ai
 
-The most well-known aggregator with 300+ models. Strong community, good documentation, and OAuth support for user-facing apps.
+The most well-known aggregator with compatible models in the current catalogue. Strong community, good documentation, and OAuth support for user-facing apps.
 
 | Feature | Detail |
 |---------|--------|
@@ -221,24 +215,12 @@ Provides unified APIs across multiple categories (not just AI), including CRM, H
 
 ## Comparison Table
 
-| Platform | Models | OpenAI Compatible | Self-Host | Free Tier | Best For |
-|----------|--------|-------------------|-----------|-----------|----------|
-| **Crazyrouter** | 627+ | ✅ + Anthropic + Gemini | ❌ | $0.20 credit | Broadest model access, international teams |
-| **OpenRouter** | 300+ | ✅ | ❌ | ✅ | Community, free models |
-| **AIMLAPI** | 400+ | ✅ | ❌ | ✅ | Multimodal (image/video/audio) |
-| **Portkey** | 100+ | ✅ | ❌ | ✅ | Enterprise observability |
-| **LiteLLM** | 100+ | ✅ | ✅ | ✅ (OSS) | Self-hosted deployments |
-| **Eden AI** | 500+ | ❌ | ❌ | ✅ | Non-LLM AI services |
-| **Helicone** | Proxy | ✅ | ✅ | ✅ | Logging and cost tracking |
-| **Bifrost** | 15+ providers | ✅ | ✅ | ✅ (OSS) | Ultra-low latency |
-| **SiliconFlow** | Major LLMs | ✅ | ❌ | ✅ | Asian market, inference optimization |
-| **Unified.to** | Major LLMs | ❌ | ❌ | ❌ | Multi-category integrations |
 
 ---
 
 ## How to Choose
 
-- **Maximum model coverage:** Crazyrouter (627+ models) or AIMLAPI (400+)
+- **Maximum model coverage:** Crazyrouter (compatible models in the current catalogue) or AIMLAPI (400+)
 - **Free experimentation:** OpenRouter (free tier with select models)
 - **Enterprise compliance:** Portkey (governance + observability)
 - **Self-hosting required:** LiteLLM or Bifrost
@@ -262,7 +244,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="gpt-5",  # or claude-sonnet-4.6, gemini-2.5-pro, etc.
+    model="gpt-5",  # or claude-sonnet-4-6, gemini-2.5-pro, etc.
     messages=[{"role": "user", "content": "Hello!"}]
 )
 print(response.choices[0].message.content)

@@ -1,12 +1,14 @@
 ---
 title: 'Claude Code Complete Tutorial: From Installation to Production (2026)'
 published: true
-description: 'Step-by-step guide to Claude Code — Anthropic''s terminal-based AI coding assistant. Installation, configuration with API gateway (45% cheaper), core features, CI/CD integration, and advanced tips.'
+description: 'Step-by-step guide to Claude Code — Anthropic''s terminal-based AI coding assistant. Installation, configuration with API gateway (check model-specific pricing), core features, CI/CD integration, and advanced tips.'
 tags: 'ai, programming, claudecode, tutorial'
 canonical_url: 'https://crazyrouter.com/blog/claude-code-complete-tutorial-2026'
 id: 3487880
 date: '2026-04-11T16:35:40Z'
 ---
+
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
 
 ## What is Claude Code?
 
@@ -36,7 +38,7 @@ Claude Code is Anthropic's official AI coding assistant that runs directly in yo
 npm install -g @anthropic-ai/claude-code
 
 # Verify
-claude-code --version
+claude --version
 ```
 
 ---
@@ -49,25 +51,19 @@ claude-code --version
 export ANTHROPIC_API_KEY="sk-ant-api03-xxxxx"
 ```
 
-**Pricing:** Claude Opus 4.6 — $15/M input, $75/M output tokens.
 
-### Option 2: API Gateway (Recommended — 45% Cheaper)
+### Option 2: API Gateway (Recommended — Current pricing
 
 Why use an API gateway?
-- **45% cheaper** than official pricing
-- **600+ models** with one key (Claude + GPT + Gemini + DeepSeek)
+- **compatible models in the current catalogue** with one key (Claude + GPT + Gemini + DeepSeek)
 - **Better international latency**
 - **No credit card** required (Alipay/WeChat supported)
 
 ```bash
 export ANTHROPIC_API_KEY="sk-xxxxxx"  # Your gateway key
-export ANTHROPIC_BASE_URL="https://crazyrouter.com/v1"
+export ANTHROPIC_BASE_URL="https://crazyrouter.com"
 ```
 
-| Method | Input Price | Output Price | Savings |
-|--------|-----------|-------------|---------|
-| Official API | $15/M | $75/M | — |
-| API Gateway | $8.25/M | $41.25/M | **45%** |
 
 [Get your API key →](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=claude_code_tutorial)
 
@@ -78,7 +74,7 @@ export ANTHROPIC_BASE_URL="https://crazyrouter.com/v1"
 ```bash
 # Start in your project
 cd /path/to/project
-claude-code
+claude
 ```
 
 ### Essential Commands
@@ -165,9 +161,9 @@ jobs:
       - name: AI Review
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ANTHROPIC_BASE_URL: "https://crazyrouter.com/v1"
+          ANTHROPIC_BASE_URL: "https://crazyrouter.com"
         run: |
-          claude-code --read-only --non-interactive \
+          claude --read-only --non-interactive \
             "Review this PR for bugs, security issues, and style" \
             > review.txt
           cat review.txt >> $GITHUB_STEP_SUMMARY
@@ -177,15 +173,6 @@ jobs:
 
 ## Claude Code vs Cursor vs Copilot
 
-| Feature | Claude Code | Cursor | Copilot |
-|---------|-------------|--------|---------|
-| Interface | Terminal | GUI (VS Code) | IDE Plugin |
-| Full codebase context | ✅ | ⚠️ Limited | ❌ |
-| Multi-file editing | ✅ | ✅ | ❌ |
-| Custom API endpoint | ✅ | ❌ | ❌ |
-| CI/CD integration | ✅ | ❌ | ❌ |
-| Price | Pay-per-token | $20/mo | $10/mo |
-| Model flexibility | ✅ Any model | Claude only | GPT only |
 
 **Choose Claude Code if:** you do backend work, need CI/CD integration, want model flexibility, or prefer terminal workflows.
 
@@ -197,7 +184,6 @@ jobs:
 
 1. **Use Sonnet 4.5 for simple tasks** — 5x cheaper than Opus 4.6
 2. **Clear context** with `/clear` when switching topics
-3. **Use an API gateway** — save 45% on every API call
 4. **Monitor spending** with `/cost` command
 5. **Batch similar tasks** instead of making many small requests
 
@@ -230,10 +216,8 @@ Code is sent to the API provider (Anthropic or your gateway). For sensitive code
 ## Get Started
 
 1. Install: `npm install -g @anthropic-ai/claude-code`
-2. Get an API key: [crazyrouter.com](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=claude_code_tutorial) (45% cheaper, 600+ models)
-3. Configure: `export ANTHROPIC_BASE_URL="https://crazyrouter.com/v1"`
+3. Configure: `export ANTHROPIC_BASE_URL="https://crazyrouter.com"`
 4. Start coding: `claude-code`
 
 ---
 
-*Try Crazyrouter — one API key for 600+ AI models, 45% cheaper than going direct. [crazyrouter.com](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=claude_code_tutorial)*

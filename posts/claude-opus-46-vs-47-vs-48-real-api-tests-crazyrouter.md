@@ -9,6 +9,8 @@ id: 3807778
 date: '2026-06-03T05:44:38Z'
 ---
 
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
+
 # Claude Opus 4.6 vs 4.7 vs 4.8: 12 Real API Tests Through Crazyrouter
 
 Most Claude comparison posts repeat vendor claims. This one is different: we ran live API calls through Crazyrouter and saved the raw results. The goal was not to crown a universal winner; it was to see how Opus 4.6, Opus 4.7, and Opus 4.8 behave on practical developer tasks.

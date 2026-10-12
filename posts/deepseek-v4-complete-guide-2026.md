@@ -7,6 +7,8 @@ id: 3699162
 date: '2026-05-19T09:30:31Z'
 ---
 
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
+
 # DeepSeek V4 Complete Guide — 1.6T MoE with 1M Context at 73% Lower Cost
 
 DeepSeek V4 dropped on April 24, 2026, and it's the most efficient open-weight model family we've seen. A 1.6-trillion-parameter Mixture-of-Experts architecture that only activates 49 billion parameters per token, with a 1-million-token context window and inference costs 73% lower than V3.
@@ -50,27 +52,15 @@ V4-Pro roughly matches GPT-5.4 and Claude Opus 4.6 on most benchmarks, while bei
 
 ### Direct DeepSeek API (with 75% promo discount through May 2026)
 
-| Model | Input (per 1M) | Output (per 1M) | Cached Input |
-|-------|----------------|------------------|--------------|
-| V4-Pro | $0.435 | $0.87 | $0.003625 |
-| V4-Flash | $0.14 | $0.28 | — |
-| V4 (base) | $0.30 | $0.50 | — |
 
 ### Cost Comparison
 
-| Model | Input | Output | Notes |
-|-------|-------|--------|-------|
-| DeepSeek V4-Pro (promo) | $0.435 | $0.87 | Open-weight, 1M context |
-| DeepSeek V4-Flash (promo) | $0.14 | $0.28 | Fastest option |
-| GPT-5.5 | ~$5.00 | ~$75.00 | Closed, 400K context |
-| GPT-5.4 | $2.50 | $15.00 | Closed |
-| Claude Opus 4.6 | $3.00 | $15.00 | Closed |
 
 V4-Pro delivers comparable quality at **5-85x lower cost** depending on the task and competitor.
 
 ## API Access via Crazyrouter
 
-Access DeepSeek V4 alongside 300+ other models through a single API key. OpenAI SDK compatible.
+Access DeepSeek V4 alongside compatible models in the current catalogue through a single API key. OpenAI SDK compatible.
 
 ```python
 from openai import OpenAI
@@ -163,4 +153,4 @@ Use R2 for pure reasoning tasks. Use V4 for everything else, especially when you
 4. Use `deepseek-v4-pro` or `deepseek-v4-flash` as the model name
 5. Start building
 
-DeepSeek V4 makes frontier-level AI accessible at a fraction of the cost. Combined with Crazyrouter's unified API, you can switch between V4, GPT-5.5, Claude, and 300+ other models with a single line of code.
+DeepSeek V4 makes frontier-level AI accessible at a fraction of the cost. Combined with Crazyrouter's unified API, you can switch between V4, GPT-5.5, Claude, and compatible models in the current catalogue with a single line of code.

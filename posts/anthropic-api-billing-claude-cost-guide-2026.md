@@ -224,7 +224,7 @@ const client = new OpenAI({
 });
 
 const completion = await client.chat.completions.create({
-  model: "anthropic/claude-haiku-4.5",
+  model: "anthropic/claude-haiku-4-5",
   messages: [
     { role: "system", content: "You summarize billing logs for developers." },
     { role: "user", content: "Give me five ways to lower Anthropic API cost." }

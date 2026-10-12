@@ -7,6 +7,8 @@ id: 3588017
 date: '2026-04-29T18:43:41Z'
 ---
 
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
+
 The AI API gateway market has exploded in 2026. What used to be a two-horse race between OpenRouter and a handful of open-source tools has turned into a crowded field with serious new contenders.
 
 If you're still managing separate API keys for OpenAI, Anthropic, Google, and DeepSeek, you're doing it the hard way. These gateways give you one API key, one billing dashboard, and access to dozens (or hundreds) of models.
@@ -149,10 +151,10 @@ WaveSpeed focuses on speed for image, video, and audio generation. Their unified
 **Website:** [crazyrouter.com](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=gateway_comparison)
 **Focus:** Maximum model coverage at low prices
 
-Crazyrouter has been around longer than most on this list, but it's worth including because it solves the core problem better than most: access to 300+ models through one OpenAI-compatible API at prices consistently below direct provider rates.
+Crazyrouter has been around longer than most on this list, but it's worth including because it solves the core problem better than most: access to compatible models in the current catalogue through one OpenAI-compatible API at prices consistently below direct provider rates.
 
 **Key features:**
-- 300+ models (GPT-5, Claude 4.6, Gemini 3, DeepSeek R2, Llama 4, Qwen3, and more)
+- compatible models in the current catalogue (GPT-5, Claude 4.6, Gemini 3, DeepSeek R2, Llama 4, Qwen3, and more)
 - OpenAI SDK compatible — zero code changes
 - Pay-as-you-go, no monthly subscription
 - Multi-region infrastructure (US, Japan, Korea, UK, Hong Kong, Philippines, Russia)
@@ -183,15 +185,6 @@ response = client.chat.completions.create(
 
 ## Comparison Table
 
-| Gateway | Models | Pricing Model | Open Source | Multimodal | Best For |
-|---------|--------|--------------|-------------|------------|----------|
-| TrueFoundry | 20+ providers | Enterprise (contact) | No | Text | Enterprise governance |
-| TensorZero | All major | Free (self-host) | Yes (Rust) | Text | LLMOps optimization |
-| ZenMux | Major providers | From $20/mo | No | Text | Simple unified access |
-| EvoLink | 100+ | Pay-as-you-go | No | Yes | Budget developers |
-| Maxim AI | N/A (eval tool) | Free tier + enterprise | No | N/A | Evaluation & monitoring |
-| WaveSpeed | Media models | Pay-per-task | No | Media only | Image/video generation |
-| Crazyrouter | 300+ | Pay-as-you-go | No | Yes | Max coverage, low price |
 
 ## How to Choose
 

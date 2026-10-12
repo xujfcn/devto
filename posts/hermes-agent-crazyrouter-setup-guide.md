@@ -1,20 +1,22 @@
 ---
-title: 'How to Use Hermes Agent with Crazyrouter — 600+ Models, Lower Cost'
+title: 'How to Use Hermes Agent with Crazyrouter — Compatible Models and Current Pricing'
 published: true
-description: 'Configure NousResearch Hermes Agent to use Crazyrouter instead of OpenRouter. Access 600+ AI models at lower cost with a single API key. One-command setup, no code changes.'
+description: 'Configure NousResearch Hermes Agent to use Crazyrouter instead of OpenRouter. Access compatible AI models at lower cost with a single API key. One-command setup, no code changes.'
 tags: 'ai, llm, api, devtools'
 canonical_url: 'https://xufjcn.hashnode.dev/hermes-agent-crazyrouter-setup-guide'
 id: 3506613
 date: '2026-04-15T18:44:44Z'
 ---
 
-# How to Use Hermes Agent with Crazyrouter — 600+ Models, Lower Cost
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
+
+# How to Use Hermes Agent with Crazyrouter — compatible models in the current catalogue, Lower Cost
 
 [Hermes Agent](https://github.com/nousresearch/hermes-agent) by NousResearch has quickly become one of the most capable open-source AI agents available. With 57,000+ GitHub stars, built-in terminal access, browser automation, MCP support, and persistent memory, it's a serious tool for developers who want an agent that actually gets things done.
 
 By default, Hermes routes all LLM calls through OpenRouter. But here's something most people don't realize: you can swap the provider to any OpenRouter-compatible gateway without touching a single line of Hermes source code.
 
-This guide shows you how to set up Hermes Agent with [Crazyrouter](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=dev_community) — an AI API gateway that gives you access to 600+ models at prices typically 30-50% lower than going direct.
+This guide shows you how to set up Hermes Agent with [Crazyrouter](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=dev_community) — an AI API gateway that gives you access to compatible models in the current catalogue at prices typically 30-50% lower than going direct.
 
 ## Why Switch from OpenRouter to Crazyrouter?
 
@@ -22,7 +24,7 @@ Both OpenRouter and Crazyrouter use the same OpenAI-compatible API format. The d
 
 | | OpenRouter | Crazyrouter |
 |---|---|---|
-| Models available | 300+ | 600+ |
+| Model availability | Check current catalogue | Check current catalogue and protocol support |
 | Pricing | Standard markup | 30-50% cheaper on most models |
 | API format | OpenAI-compatible | OpenAI-compatible |
 | Free tier | ✅ | ✅ |
@@ -102,14 +104,6 @@ No monkey-patching. No forks. Just a config change.
 
 Once connected to Crazyrouter, you can switch models with `hermes model`:
 
-| Model | Best for | Input cost |
-|-------|----------|-----------|
-| `anthropic/claude-opus-4.6` | Complex reasoning, coding | ~$15/M tokens |
-| `anthropic/claude-sonnet-4-5` | Balanced speed and quality | ~$3/M tokens |
-| `openai/gpt-5.2` | General purpose | ~$12/M tokens |
-| `google/gemini-3-pro` | Multimodal, long context (2M) | ~$7/M tokens |
-| `deepseek/deepseek-r2` | Budget reasoning | ~$0.5/M tokens |
-| `google/gemini-3-flash` | Fast tasks, cheap | ~$0.1/M tokens |
 
 ## Advanced: Smart Model Routing
 
@@ -158,10 +152,10 @@ The setup script and full documentation are on GitHub:
 
 Hermes Agent is one of the best open-source AI agents available today. By pointing it at Crazyrouter instead of the default provider, you get access to more models at lower cost — without changing any source code.
 
-The setup takes about 30 seconds. One config change, one API key, and you're running Hermes with 600+ models behind it.
+The setup takes about 30 seconds. One config change, one API key, and you're running Hermes with compatible models in the current catalogue behind it.
 
 Get your free API key at [crazyrouter.com](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=dev_community) and try it out.
 
 ---
 
-*Crazyrouter is an AI API gateway that provides unified access to 600+ AI models through a single API key. OpenAI-compatible format, no vendor lock-in.*
+*Crazyrouter is an AI API gateway that provides unified access to compatible models in the current catalogue through a single API key. OpenAI-compatible format, no vendor lock-in.*

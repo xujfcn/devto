@@ -9,6 +9,8 @@ id: 3816792
 date: '2026-06-04T06:27:24Z'
 ---
 
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
+
 # OpenAI-Compatible API Base URL Explained: How to Configure Any AI Tool
 
 If an AI tool says it supports an “OpenAI-compatible API,” it usually means you do not need a new SDK.
@@ -91,7 +93,7 @@ The benefit is practical:
 | Harder fallback between models | Easier model switching and fallback |
 | More integration work per tool | Change Base URL, API key, and model name |
 
-In Crazyrouter’s case, you can use one API layer across 627+ models and keep common OpenAI-compatible tooling.
+In Crazyrouter’s case, you can use one API layer across compatible models in the current catalogue and keep common OpenAI-compatible tooling.
 
 ## Crazyrouter Base URL options
 

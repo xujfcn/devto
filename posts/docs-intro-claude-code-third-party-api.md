@@ -8,6 +8,8 @@ id: 3764830
 date: '2026-05-27T13:55:38Z'
 ---
 
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
+
 <!-- retry-publish: 2026-05-22T12:06Z -->
 Claude Code is a terminal-first coding assistant. It can read a repository, explain code, edit files, run commands, and help with refactors from inside your development workflow.
 
@@ -278,7 +280,7 @@ https://crazyrouter.com/v1/chat/completions
 Claude Code uses the Anthropic-native protocol. It appends the Anthropic request path itself. If you give it this incorrect value:
 
 ```txt
-ANTHROPIC_BASE_URL=https://crazyrouter.com/v1
+ANTHROPIC_BASE_URL=https://crazyrouter.com
 ```
 
 You can end up with duplicated or invalid paths.
@@ -292,8 +294,8 @@ ANTHROPIC_BASE_URL=https://crazyrouter.com
 Incorrect:
 
 ```txt
-ANTHROPIC_BASE_URL=https://crazyrouter.com/v1
-ANTHROPIC_BASE_URL=https://crazyrouter.com/v1/messages
+ANTHROPIC_BASE_URL=https://crazyrouter.com
+ANTHROPIC_BASE_URL=https://crazyrouter.com/messages
 ```
 
 If your logs show paths like `/v1/v1/messages` or `/v1/messages/v1/messages`, reset the base URL to the root domain.

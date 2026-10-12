@@ -1,13 +1,15 @@
 ---
 title: 'Как использовать Claude API дешевле в 2026: экономия 40%+ без подписки'
 published: true
-description: '5 способов снизить расходы на Claude API. Без подписки, оплата по факту. AI API gateway даёт скидку 40-55%.'
+description: '5 способов снизить расходы на Claude API. Без подписки, оплата по факту. AI API gateway даёт тарифы для каждой модели.'
 tags: 'ai, api, programming, tutorial'
 cover_image: null
 canonical_url: null
 id: 3508000
 date: '2026-04-16T03:44:09Z'
 ---
+
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
 
 Claude API стоит дорого? Вы не одиноки.
 
@@ -19,25 +21,13 @@ Claude Opus 4 — $15 за вход / $75 за выход (на 1M токено�
 
 ## Официальные цены Claude API в 2026
 
-| Модель | Вход (1M токенов) | Выход (1M токенов) | Кэш | Для чего |
-|--------|-------------------|--------------------|----|----------|
-| Claude Opus 4 | $15.00 | $75.00 | $1.50 | Сложный анализ |
-| Claude Sonnet 4.6 | $3.00 | $15.00 | $0.30 | Лучшее соотношение цена/качество |
-| Claude Haiku 3.5 | $0.80 | $4.00 | $0.08 | Быстрые дешёвые задачи |
 
 ---
 
-## Способ 1: AI API Gateway — скидка 40-55%
+## Способ 1: AI API Gateway — скидка — Current pricing
 
 Самый простой способ сэкономить — использовать **AI API gateway**. Шлюзы договариваются об оптовых скидках и передают их пользователям.
 
-[Crazyrouter](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=claude_api_cheap_ru) предоставляет 627+ моделей примерно за 55% от официальной цены:
-
-| Модель | Anthropic напрямую | Crazyrouter | Экономия |
-|--------|-------------------|-------------|----------|
-| Claude Opus 4 | $15/$75 | ~$8.25/$41.25 | 45% |
-| Claude Sonnet 4.6 | $3/$15 | ~$1.65/$8.25 | 45% |
-| Claude Haiku 3.5 | $0.80/$4.00 | ~$0.44/$2.20 | 45% |
 
 ### Код: меняем 2 строки
 
@@ -51,7 +41,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="claude-sonnet-4.6",
+    model="claude-sonnet-4-6",
     messages=[{"role": "user", "content": "Напиши сортировку слиянием на Python"}]
 )
 print(response.choices[0].message.content)
@@ -86,12 +76,6 @@ messages = [
 
 Не каждый запрос требует Claude Opus 4:
 
-| Задача | Рекомендуемая модель | Стоимость (выход 1M) |
-|--------|---------------------|---------------------|
-| Простые вопросы | Claude Haiku 3.5 | $4.00 |
-| Программирование | Claude Sonnet 4.6 | $15.00 |
-| Глубокий анализ | Claude Opus 4 | $75.00 |
-| Классификация | DeepSeek Chat | $0.28 |
 
 С Crazyrouter одним API-ключом можно переключаться между моделями:
 
@@ -104,7 +88,7 @@ response = client.chat.completions.create(
 
 # Код — Claude Sonnet
 response = client.chat.completions.create(
-    model="claude-sonnet-4.6",
+    model="claude-sonnet-4-6",
     messages=[{"role": "user", "content": "Напиши HTTP-сервер на Go"}]
 )
 ```
@@ -127,7 +111,7 @@ response = client.chat.completions.create(
 
 ```python
 response = client.chat.completions.create(
-    model="claude-sonnet-4.6",
+    model="claude-sonnet-4-6",
     messages=[{"role": "user", "content": "Да или Нет: Москва — столица России?"}],
     max_tokens=10
 )
@@ -141,12 +125,6 @@ response = client.chat.completions.create(
 
 100 000 запросов в месяц (в среднем 500 входных + 500 выходных токенов):
 
-| Метод | Claude Sonnet 4.6 в месяц |
-|-------|--------------------------|
-| Anthropic напрямую | ~$900 |
-| Через Crazyrouter | ~$495 |
-| + Выбор модели | ~$200-300 |
-| + Кэширование | ~$100-200 |
 
 **Комбинация методов позволяет сэкономить более 80% от прямой оплаты.**
 
@@ -154,7 +132,6 @@ response = client.chat.completions.create(
 
 ## Итого
 
-1. **AI API Gateway** (Crazyrouter) снижает базовую цену на 40-55%
 2. **Кэширование промптов** — минус 90% на повторяющемся контексте
 3. **Выбор модели** — не переплачивайте за простые задачи
 4. **Пакетная обработка** — 50% скидка на фоновые задачи
@@ -162,4 +139,4 @@ response = client.chat.completions.create(
 
 Claude API дорогой — но при правильном подходе можно платить в разы меньше.
 
-👉 [Crazyrouter — 627+ моделей по лучшей цене](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=claude_api_cheap_ru)
+👉 [Crazyrouter — модели и актуальные тарифы](https://crazyrouter.com?utm_source=devto&utm_medium=article&utm_campaign=claude_api_cheap_ru)

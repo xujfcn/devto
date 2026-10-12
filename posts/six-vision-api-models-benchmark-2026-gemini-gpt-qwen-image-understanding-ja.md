@@ -7,6 +7,8 @@ cover_image: 'https://raw.githubusercontent.com/xujfcn/images/main/blog/covers/g
 canonical_url: 'https://crazyrouter.com/blog/six-vision-api-models-benchmark-2026-gemini-gpt-qwen-image-understanding-ja?utm_source=devto&utm_medium=article&utm_campaign=vision_six_model_benchmark_2026_ja'
 ---
 
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
+
 # 6つのVision APIモデルを実測：Gemini 2.5、GPT-4.1、Qwen3 VLの画像理解はどう選ぶべきか
 
 画像理解APIをプロダクトに入れるとき、「画像対応モデルです」という説明だけでは足りません。
@@ -81,14 +83,6 @@ API形式は `chat/completions` で、画像は `messages[].content[]` の中に
 
 ## 全体結果
 
-| モデル | HTTP成功 | 正しく認識 | no-image応答 | 平均レイテンシ | 最遅リクエスト | 10k回相当の概算コスト | 向いている用途 |
-|---|---:|---:|---:|---:|---:|---:|---|
-| `qwen3-vl-flash` | 6/6 | 6/6 | 0 | 3.819s | 5.975s | $0.0915 | 低コストな大量認識 |
-| `gpt-4.1-mini` | 6/6 | 6/6 | 0 | 1.491s | 2.189s | $0.5226 | ユーザー向けリアルタイム機能 |
-| `gpt-4.1-nano` | 6/6 | 6/6 | 0 | 2.863s | 4.213s | $0.1666 | 低コストなOpenAI系fallback |
-| `qwen3-vl-plus` | 6/6 | 6/6 | 0 | 3.859s | 4.821s | $0.3848 | Qwen系の品質重視ルート |
-| `gemini-2.5-flash` | 6/6 | 0/6 | 1 | 4.965s | 9.507s | $0.6168 | 今回のimage_url経路では失敗 |
-| `gemini-2.5-flash-lite` | 6/6 | 6/6 | 0 | 2.618s | 4.195s | $0.5466 | 低コストなGeminiルート |
 
 10k回相当の概算コストは、今回のlogo認識テストで観測されたusageに基づくものです。大きな画像、OCR、長い説明、multi-image promptでは実際のコストは変わります。
 

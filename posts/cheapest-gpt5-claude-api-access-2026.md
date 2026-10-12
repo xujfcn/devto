@@ -1,13 +1,15 @@
 ---
 title: 'Cheapest Way to Access GPT-5 and Claude API in 2026: Pricing Breakdown'
 published: true
-description: 'Compare the cheapest ways to access GPT-5 and Claude API in 2026. Direct pricing, batch API discounts, and AI API gateways that cut costs by 40-55%.'
+description: 'Compare the cheapest ways to access GPT-5 and Claude API in 2026. Direct pricing, batch API discounts, and AI API gateways that offer model-specific rates.'
 tags: 'ai, api, programming, webdev'
 cover_image: null
 canonical_url: null
 id: 3483016
 date: '2026-04-10T17:23:38Z'
 ---
+
+> Reviewed 2026-10-12: use the [current catalogue and prices](https://crazyrouter.com/en/pricing). Previous universal-discount, fixed-model-count and unverified free-credit claims are retired. Prices depend on the model, billing unit, account group and request time.
 
 GPT-5 and Claude are the two most popular AI APIs in 2026, but their pricing adds up fast at scale. If you're making thousands of API calls per day, even small per-token savings compound into significant monthly differences.
 
@@ -19,11 +21,6 @@ I compared every way to access these models — direct API, batch processing, ca
 
 OpenAI offers multiple GPT-5 variants at different price points:
 
-| Model | Input (per 1M tokens) | Output (per 1M tokens) | Cached Input | Best For |
-|-------|----------------------|------------------------|--------------|----------|
-| GPT-5 | $1.25 | $10.00 | $0.125 | General tasks |
-| GPT-5 Mini | $0.25 | $2.00 | $0.025 | Cost-sensitive workloads |
-| GPT-5 Nano | $0.05 | $0.40 | $0.005 | High-volume, simple tasks |
 
 **Cheapest direct option:** GPT-5 Nano at $0.05/$0.40 per million tokens. For most use cases, GPT-5 Mini at $0.25/$2.00 offers the best quality-to-cost ratio.
 
@@ -31,11 +28,6 @@ OpenAI offers multiple GPT-5 variants at different price points:
 
 OpenAI's Batch API gives you **50% off** standard pricing for non-time-sensitive workloads (processed within 24 hours):
 
-| Model | Batch Input | Batch Output |
-|-------|-------------|--------------|
-| GPT-5 | $0.625 | $5.00 |
-| GPT-5 Mini | $0.125 | $1.00 |
-| GPT-5 Nano | $0.025 | $0.20 |
 
 If your workload can tolerate 24-hour turnaround, batch processing is the single biggest cost reduction available.
 
@@ -45,11 +37,6 @@ If your workload can tolerate 24-hour turnaround, batch processing is the single
 
 Anthropic's Claude model lineup in 2026:
 
-| Model | Input (per 1M tokens) | Output (per 1M tokens) | Cached Input | Best For |
-|-------|----------------------|------------------------|--------------|----------|
-| Claude Opus 4 | $15.00 | $75.00 | $1.50 | Complex reasoning |
-| Claude Sonnet 4.6 | $3.00 | $15.00 | $0.30 | Best quality/cost balance |
-| Claude Haiku 3.5 | $0.80 | $4.00 | $0.08 | Fast, cheap tasks |
 
 **Cheapest direct option:** Claude Haiku 3.5 at $0.80/$4.00. For coding and complex tasks, Claude Sonnet 4.6 at $3.00/$15.00 is the sweet spot.
 
@@ -118,14 +105,14 @@ response = client.chat.completions.create(
 
 # Same key works for Claude too
 response = client.chat.completions.create(
-    model="claude-sonnet-4.6",
+    model="claude-sonnet-4-6",
     messages=[{"role": "user", "content": "Hello"}]
 )
 ```
 
 **Savings:** 10-40% below official pricing depending on the model. Check [crazyrouter.com/pricing](https://crazyrouter.com/pricing) for current rates.
 
-**Bonus:** You also get access to 627+ other models (DeepSeek, Gemini, Qwen, Grok, etc.) through the same API key, so you can easily switch to cheaper alternatives when appropriate.
+**Bonus:** You also get access to compatible models in the current catalogue (DeepSeek, Gemini, Qwen, Grok, etc.) through the same API key, so you can easily switch to cheaper alternatives when appropriate.
 
 ### 5. Route to the Cheapest Capable Model Dynamically
 
@@ -144,7 +131,7 @@ def smart_route(task_complexity, messages):
     elif task_complexity == "medium":
         model = "deepseek-chat"     # Even cheaper for many tasks
     elif task_complexity == "coding":
-        model = "claude-sonnet-4.6" # Best for code
+        model = "claude-sonnet-4-6" # Best for code
     else:
         model = "gpt-5"            # Full power when needed
     
@@ -162,13 +149,6 @@ def smart_route(task_complexity, messages):
 
 Here's what 1 million API calls (average 500 input + 500 output tokens each) costs across different access methods:
 
-| Method | GPT-5 Cost | Claude Sonnet 4.6 Cost |
-|--------|-----------|----------------------|
-| Direct API | $5.63 | $9.00 |
-| Direct + Batch API | $2.81 | N/A |
-| Direct + Caching | ~$1.00-3.00 | ~$2.00-5.00 |
-| Crazyrouter | Below direct | Below direct |
-| OpenRouter | ~$6.19 (+10%) | ~$9.90 (+10%) |
 
 *Estimates based on 500 input + 500 output tokens per request. Actual costs vary by usage pattern.*
 
